@@ -19,6 +19,12 @@
       "skillPath": "tools/video/ai-video-generation/SKILL.md",
       "computedHash": "586437842af9fa7a513100b2aeb79e62f9b4acb81dd1b9895da6a452714b78ce"
     },
+    "brainstorming": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "computedHash": "3a7728567c0601bcca44be57a902ea7de3df3c18208df5ad2cf44e948f334792"
+    },
     "content-strategy": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
