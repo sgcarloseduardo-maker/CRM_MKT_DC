@@ -131,14 +131,18 @@ Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de te
 9. Resultados (VAZIO)
 10. Dashboard (VAZIO)
 
-AGENTES PRINCIPAIS
+
+AGENTES PRINCIPAIS e SKILLS
 
 1. "Programador"
 programador.md
 Skills que "programador" deverá usar:
-1. brainstorming.md
-2. web-design-guidelines.md
-3. frontend-design.md
+1. brainstorming
+2. web-design-guidelines
+3. frontend-design
+4. webapp-testing
+5. find-skills
+6. skill-creator
 
 2. "Diretor Criativo"
 diretor-criativo.md
@@ -146,42 +150,45 @@ Skills que "Diretor Criativo" deverá usar:
 1. copywriting
 2. web-design-guidelines
 3. frontend-design
-4. content-strategy.md
+4. content-strategy
+5. social-content
+6. ai-seo
 
-
-3."Diretor Arte (Imagem)"
+3. "Diretor Arte (Imagem)"
 diretor-de-arte-imagem.md
 Skills que "Diretor Arte (Imagem)" deverá usar:
-1.
+1. ai-image-generation
+2. nano-banana-2
+3. frontend-design
+4. web-design-guidelines
+5. brainstorming
 
-4."Diretor de arte (video)"
+4. "Diretor de Arte (Video)"
 diretor-de-arte-video.md
 Skills que "Diretor Arte (Video)" deverá usar:
-1.
+1. ai-video-generation
+2. video
+3. social-content
+4. copywriting
+5. content-strategy
 
-
-5. "Revisor de erros"
+5. "Revisor de Erros"
 revisor-de-erros.md
-Skills que "Revisor de erros" deverá usar:
-1.
+Skills que "Revisor de Erros" deverá usar:
+1. webapp-testing
+2. seo-audit
+3. ai-seo
+4. copywriting
+5. find-skills
 
-
-6. "Analista de dados"
+6. "Analista de Dados"
 analista-de-dados.md
-Skills que "Analista de dados" deverá usar:
-1.
-
-
-- opencode-bootstrapper
-- orchestrator-crm
-- seo-editor
-- product-manager
-- social-adapter
-- sales-groups-adapter
-- creative-director
-- prompt-creative-director
-- publisher-reviewer
-- metrics-analyst
+Skills que "Analista de Dados" deverá usar:
+1. seo-audit
+2. content-strategy
+3. ai-seo
+4. social-content
+5. find-skills
 
 
 REGRAS GERAIS DE EXECUCAO
@@ -191,7 +198,7 @@ REGRAS GERAIS DE EXECUCAO
 2. Não inventar outro escopo.
 3. Não preservar nomenclatura genérica em conflito.
 4. Não mudar arquitetura sem necessidade extrema.
-5. Não alterar, agents e skills.
+5. Não alterar, agentes e skills.
 6. Preservar o tecnicamente correto e reescrever o semanticamente fora do escopo.
 7. Toda UI/UIX em português do Brasil.
 8. O sistema deve comunicar clareza operacional imediata.
