@@ -4,68 +4,174 @@ NOME OFICIAL DE REFERENCIA
 - Escopo base
 
 OBJETIVO GERAL
-Criar um CRM inteligente de producao, refinamento, adaptacao, automacao, geracao visual guiada e analise de conteudo afiliado, capaz de receber um artigo-base por texto ou PDF, melhorar esse conteudo com SEO e humanizacao, extrair produtos, organizar links afiliados, adaptar automaticamente para multiplos canais, gerar artes internamente quando possivel, gerar prompts profissionais para imagem e video quando necessario, apoiar edicao externa e consolidar dashboards operacionais e metricos.
+Criar um CRM inteligente de produção e distribuição de conteúdo de vendas de produtos com link de afiliados para multiplaformas digitais.  
+
+LINGUAGEM DE PROGRAMAÇÃO
+Utilizar a linguagem de programação do arquivo principal em java, pyhton quando chamado para ações necessárias em botões, e todas bibliotecas necessárias. 
+
+CAMINHO
+C:\Users\sgcar\OneDrive\Documentos\GitHub\CRM_MKT_DC\13_APP
 
 VISAO CENTRAL DO PROJETO
 O CRM_MKT_DC nao sera um CRM tradicional de clientes.
-Ele sera uma central inteligente de producao de conteudo e operacao afiliada para a marca Decisao Certa Ferramentas, com foco em blog, redes sociais, grupos de venda, conteudos de review, conteudos de conversao, links afiliados, geracao de criativos e analise de performance.
+Ele sera uma central inteligente de producao de conteudo com o objetivo de vender produtos por meio de Link de afiliados utilizando a marca Decisão Certa Ferramentas, com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
 
 PRINCIPIO CENTRAL DO SISTEMA
-O CRM sera o cerebro operacional e criativo do processo.
+O CRM sera o cerebro criativo, operacional e analista de resultados, com o objetivo de melhorar performance de vendas baseados em resultados.
 
 IDIOMA E PADRAO
-- Todo o CRM devera operar em portugues do Brasil.
-- A linguagem da interface, labels, descricoes, status e geracao interna sera PT-BR.
-- O tom do sistema devera ser claro, objetivo e operacional.
+- Todo o CRM devera operar em português do Brasil.
+- A linguagem da interface, labels, descrições, status e geração interna será PT-BR.
+- O sistema devera ser objetivo e operacional.
 
 REGRA DE REFERENCIA OFICIAL
 - Este documento passa a ser o escopo base oficial do projeto.
-- Todas as proximas decisoes deverao seguir este escopo base ate que uma revisao explicita o substitua.
-- Sempre que o termo “escopo base” for usado, esta versao devera ser considerada a referencia principal.
+- Sempre que o termo “escopo base” for usado, esta versão devera ser considerada a referencia principal.
 
 MENU LATERAL PRINCIPAL (ORDEM OFICIAL)
-1. Dashboard
-2. Gerador de Conteudo
-3. Refino SEO
-4. Produtos
-5. Redes Sociais
-6. Grupos de Venda
-7. Biblioteca Criativa
-8. Aprovacoes
-9. Publicacao
-10. Metricas
-11. Automacoes
-12. Prompts Criativos
+1. Criação de Tema e Produtos
+2. Link dos Produtos
+3. Gerador de Artigo BLOG
+4. Gerador de Conteúdo Youtube
+5. Gerador de Conteúdo Redes Sociais 
+6. Gerador de Conteúdo para Grupos e Status
+7. Gerador de Prompt
+8. Histórico de Aprovações
+9. Resultados
+10. Dashboard
 
-ORDEM DAS ABAS INTERNAS DE REDES SOCIAIS
+ORDEM DAS ABAS INTERNAS "Gerador de Conteúdo Redes Sociais"
+1. Criação de Tema
+2. Definição dos Produtos
+
+ORDEM DAS ABAS INTERNAS "Gerador de Conteúdo Youtube"
+1. Roteiro
+2. Vídeo
+
+ORDEM DAS ABAS INTERNAS "Gerador de Conteúdo Redes Sociais"
+
 1. Blog/Site
-2. YouTube
+2. Youtube
 3. Instagram
-   - Instagram Feed
-   - Instagram Stories Ofertas
-4. TikTok
-   - TikTok Crescimento
-   - TikTok Shop
-5. Mercado Livre
+4. Facebook
+5. TikTok
 6. Shopee
-7. Facebook
-8. Kwai
+7. Kwai
+8. Mercado Livre
 
-GRUPOS DE VENDA
+ORDEM DAS ABAS INTERNAS "Gerador de Conteúdo para Grupos e Status"
 1. WhatsApp
 2. Telegram
+3. Status
 
-PRINCIPIO DE LINKS E PRODUTOS
-- Produtos sera a origem oficial dos links afiliados.
-- Os links aprovados serao propagados automaticamente para canais compativeis.
+ORDEM DAS ABAS INTERNAS "Gerador de Prompt"
+1. Imagem
+2. Vídeo 
 
-CAMADA DE AUTOMACAO
-Niveis:
-1. Manual assistido
-2. Semiautomatico
-3. Automatico por regra e agendamento
+
+OPERAÇÃO DO SISTEMA DETALHADO "Criação de Tema e Produtos":
+1. Criação de Tema 
+Deverá ter uma caixa de texto para conversação com IA, logo abaixo à esquerda botão para subir imagem e/ou documentos, e o botão de "Enviar" para enviar o texto. Ia deverá estar integrada com o CRM. Logo Abaixo uma outra caixa de texto retangular, mais cumprida do que alta, editável, Com o título "Tema Selecionado" e um botão de confirmar. 
+2. Definição dos Produtos
+Ao clicar em "confirmar", na seleção do tema, o CRM já deverá procurar por produtos relacionados ao tema escolhido. Deverá ter uma caixa de texto, editável, pré-preenchida com o nome do produto, marca e modelo. Dividir por Produto 1, Produto 2 e assim por diante. Deverá ter uma opção de para acrescentar um produto manualmente, com uma caixa lista para escolha da numeração do produto, ex: caixa de seleção "Produto 3", abaixo uma caixa de texto para escrever manualmente o nome do produto, marca e modelo.
+Abaixo de tudo um botão de "Confirmar Produtos".
+
+OPERAÇÃO DO SISTEMA DETALHADO "Link dos Produtos":
+Deverá aparecer os produtos selecionados, já pré-preenchidos (Produto 1, Produto 2).
+Logo abaixo de cada produto, deverá ter botões: Mercado Livre (Ao apertar deverá levar para a busca do site do mercado livre já com o nome do produto copiado), Shopee, Amazon, TiktokShop, Loja do Mecânico, Ferramentas Kennedy, leroy merlin. A operação do clique igual para todos os botões redirecionando para o site indicado. Deverá conter para cada produto uma caixa de texto "LINK AFILIADOS", uma caixa de seleção com os mesmos itens dos botões: Mercado Livre, Shopee, Amazon, TiktokShop, Loja do Mecânico, Ferramentas Kennedy, leroy merlin e do lado um botão de "Adicionar". Ao clicar em adicionar cria-se uma nova linha igual a anterior, para preenchimento de quantos links forem necessários. 
+Botão abaixo de tudo: "Confirmar Links".
+
+OPERAÇÃO DO SISTEMA DETALHADO "Gerador de Artigo BLOG":
+
+Deverá ter um botão "Criar Artigo", ao apertar ele vai trazer o artigo completo, pronto para editar.
+Para a criação do artigo, o CRM deverá chamar o Agente "seo-editor", e ele vai conduzir esta tarefa. 
+O CRM deverá além do artigo, ter um campo de "DICAS PARA REFINAMENTO HUMANIZADO", onde deverá ter as dicas informadas pelo "seo-editor".
+Ao final deverá ter um botão de Criar Artigo. 
+Após a Criação, Ele deverá ficar no histórico de artigos criados. 
+
+OPERAÇÃO DO SISTEMA DETALHADO "Gerador de Conteúdo Youtube":
+
+1. Roteiro: Deverá conter uma caixa de texto grande, editável e com botão de colar. Deverá ter um botão de "Gerar Roteiro", onde cria-se um roteiro completo para elaboração de um vídeo. Ao Lado deverá ter uma caixa de seleção em cascata com a duração "1min até 30minutos"; para que o roteiro seja gerado de acordo com o tempo escolhido. Ao final um botão de Definir Roteiro. e ele será salvo em histórico. 
+2. Vídeo: Vazio
+
+
+OPERAÇÃO DO SISTEMA DETALHADO "Gerador de Conteúdo Redes Sociais":
+
+1. Blog/Site:
+
+Vazio
+
+2. Youtube:
+
+
+Caixa de texto individuais pré-prenchidas e editáveis e com botão de copiar: Título, Descrição, Tags, Hashtags. 
+Logo abaixo, centralizado na tela, O botão "Criar Thumbnail". Ao clicar em criar Thumbnail, deverá aparecer a criação de 3 opções de Thumbnail, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.   
+
+
+ 
+3. Instagram:
+Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de instagram, um botão pequeno para copiar todo o texto. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Vídeo Reels, Carrossel, Imagem Feed, Imagem Stories, Vídeo Feed, Vídeo Stories. No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo. 
+
+4. Facebook
+Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de Facebook. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Vídeo Reels, Carrossel, Imagem Feed, Imagem Stories, Vídeo Feed, Vídeo Stories. No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.
+
+5. TikTok
+Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de TikTok. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Vídeo curto vertical, Carrossel/Slideshow (Modo Foto). No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.
+
+6. Shopee
+Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de TikTok. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Shopee Vídeo, Post estático, Stories Shopee. No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.
+
+7. Kwai
+
+Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de TikTok. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Vídeo curto vertical, Foto/Slideshow, Stories. No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.
+
+6. Gerador de Conteúdo para Grupos e Status (VAZIO)
+7. Gerador de Prompt (VAZIO)
+8. Histórico de Aprovações (VAZIO)
+9. Resultados (VAZIO)
+10. Dashboard (VAZIO)
 
 AGENTES PRINCIPAIS
+
+1. "Programador"
+programador.md
+Skills que "programador" deverá usar:
+1. brainstorming.md
+2. web-design-guidelines.md
+3. frontend-design.md
+
+2. "Diretor Criativo"
+diretor-criativo.md
+Skills que "Diretor Criativo" deverá usar:
+1. copywriting
+2. web-design-guidelines
+3. frontend-design
+4. content-strategy.md
+
+
+3."Diretor Arte (Imagem)"
+diretor-de-arte-imagem.md
+Skills que "Diretor Arte (Imagem)" deverá usar:
+1.
+
+4."Diretor de arte (video)"
+diretor-de-arte-video.md
+Skills que "Diretor Arte (Video)" deverá usar:
+1.
+
+
+5. "Revisor de erros"
+revisor-de-erros.md
+Skills que "Revisor de erros" deverá usar:
+1.
+
+
+6. "Analista de dados"
+analista-de-dados.md
+Skills que "Analista de dados" deverá usar:
+1.
+
+
 - opencode-bootstrapper
 - orchestrator-crm
 - seo-editor
@@ -77,46 +183,18 @@ AGENTES PRINCIPAIS
 - publisher-reviewer
 - metrics-analyst
 
-ETAPAS DO PROCESSO
-1. Entrada de Conteudo
-2. Refino SEO
-3. Humanizacao
-4. Extracao de Produtos
-5. Links Afiliados
-6. Versao Final-Mestre
-7A. Definicao da Fase do TikTok
-7B. Definicao dos Stories de Oferta
-8. Adaptacao para Redes Sociais
-9. Adaptacao para Grupos de Venda
-10. Direcao Criativa e Escolha de Producao
-11. Geracao Visual Interna
-12. Geracao Externa Guiada por Prompt
-13. Edicao Externa
-14. Revisao e Aprovacao
-15. Publicacao
-16. Metricas e Analise
-
-MODULOS OBRIGATORIOS
-- tracking, atribuicao e metricas operacionais
-- captacao propria
-- prova social e UGC
-- monitoramento de reputacao publica
-- pesquisa profunda do artigo
-- comunidade e feedback
-- performance comercial
-- bootstrap OpenCode para agents e skills
 
 REGRAS GERAIS DE EXECUCAO
-1. Nao inventar outro escopo.
-2. Nao preservar nomenclatura generica em conflito.
-3. Nao mudar arquitetura sem necessidade extrema.
-4. Nao alterar schema, agents e skills validos sem motivo real.
-5. Preservar o tecnicamente correto e reescrever o semanticamente fora do escopo.
-6. Corrigir camada visual e logica funcional exposta ao usuario.
-7. Em duvida entre estrutura atual e escopo base, escopo base vence.
-8. Nao fazer apenas cosmetica visual; fazer aderencia real de produto.
-9. Toda UI em portugues do Brasil.
-10. O sistema deve comunicar clareza operacional imediata.
+
+1 - ANTES DE REALIZAR QUALQUER AÇÃO, O OPENCODE, DEVERÁ LER programador.md EM C:\Users\sgcar\OneDrive\Documentos\GitHub\CRM_MKT_DC\14_AGENTES, seguir e respeitar estritamente.
+
+2. Não inventar outro escopo.
+3. Não preservar nomenclatura genérica em conflito.
+4. Não mudar arquitetura sem necessidade extrema.
+5. Não alterar, agents e skills.
+6. Preservar o tecnicamente correto e reescrever o semanticamente fora do escopo.
+7. Toda UI/UIX em português do Brasil.
+8. O sistema deve comunicar clareza operacional imediata.
 
 MISSAO
-Transformar o CRM_MKT_DC em uma central inteligente de producao, refinamento, adaptacao, automacao, geracao visual guiada e analise de conteudo afiliado para Decisao Certa Ferramentas.
+Fazer o CRM_DC ser a principal central inteligente de producao de conteudo com o objetivo de vender produtos por meio de Link de afiliados utilizando a marca Decisão Certa Ferramentas, com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
