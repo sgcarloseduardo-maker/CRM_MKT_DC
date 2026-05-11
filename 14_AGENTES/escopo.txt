@@ -1,0 +1,122 @@
+ESCOPO BASE — VERSAO OFICIAL CONSOLIDADA
+
+NOME OFICIAL DE REFERENCIA
+- Escopo base
+
+OBJETIVO GERAL
+Criar um CRM inteligente de producao, refinamento, adaptacao, automacao, geracao visual guiada e analise de conteudo afiliado, capaz de receber um artigo-base por texto ou PDF, melhorar esse conteudo com SEO e humanizacao, extrair produtos, organizar links afiliados, adaptar automaticamente para multiplos canais, gerar artes internamente quando possivel, gerar prompts profissionais para imagem e video quando necessario, apoiar edicao externa e consolidar dashboards operacionais e metricos.
+
+VISAO CENTRAL DO PROJETO
+O CRM_MKT_DC nao sera um CRM tradicional de clientes.
+Ele sera uma central inteligente de producao de conteudo e operacao afiliada para a marca Decisao Certa Ferramentas, com foco em blog, redes sociais, grupos de venda, conteudos de review, conteudos de conversao, links afiliados, geracao de criativos e analise de performance.
+
+PRINCIPIO CENTRAL DO SISTEMA
+O CRM sera o cerebro operacional e criativo do processo.
+
+IDIOMA E PADRAO
+- Todo o CRM devera operar em portugues do Brasil.
+- A linguagem da interface, labels, descricoes, status e geracao interna sera PT-BR.
+- O tom do sistema devera ser claro, objetivo e operacional.
+
+REGRA DE REFERENCIA OFICIAL
+- Este documento passa a ser o escopo base oficial do projeto.
+- Todas as proximas decisoes deverao seguir este escopo base ate que uma revisao explicita o substitua.
+- Sempre que o termo “escopo base” for usado, esta versao devera ser considerada a referencia principal.
+
+MENU LATERAL PRINCIPAL (ORDEM OFICIAL)
+1. Dashboard
+2. Gerador de Conteudo
+3. Refino SEO
+4. Produtos
+5. Redes Sociais
+6. Grupos de Venda
+7. Biblioteca Criativa
+8. Aprovacoes
+9. Publicacao
+10. Metricas
+11. Automacoes
+12. Prompts Criativos
+
+ORDEM DAS ABAS INTERNAS DE REDES SOCIAIS
+1. Blog/Site
+2. YouTube
+3. Instagram
+   - Instagram Feed
+   - Instagram Stories Ofertas
+4. TikTok
+   - TikTok Crescimento
+   - TikTok Shop
+5. Mercado Livre
+6. Shopee
+7. Facebook
+8. Kwai
+
+GRUPOS DE VENDA
+1. WhatsApp
+2. Telegram
+
+PRINCIPIO DE LINKS E PRODUTOS
+- Produtos sera a origem oficial dos links afiliados.
+- Os links aprovados serao propagados automaticamente para canais compativeis.
+
+CAMADA DE AUTOMACAO
+Niveis:
+1. Manual assistido
+2. Semiautomatico
+3. Automatico por regra e agendamento
+
+AGENTES PRINCIPAIS
+- opencode-bootstrapper
+- orchestrator-crm
+- seo-editor
+- product-manager
+- social-adapter
+- sales-groups-adapter
+- creative-director
+- prompt-creative-director
+- publisher-reviewer
+- metrics-analyst
+
+ETAPAS DO PROCESSO
+1. Entrada de Conteudo
+2. Refino SEO
+3. Humanizacao
+4. Extracao de Produtos
+5. Links Afiliados
+6. Versao Final-Mestre
+7A. Definicao da Fase do TikTok
+7B. Definicao dos Stories de Oferta
+8. Adaptacao para Redes Sociais
+9. Adaptacao para Grupos de Venda
+10. Direcao Criativa e Escolha de Producao
+11. Geracao Visual Interna
+12. Geracao Externa Guiada por Prompt
+13. Edicao Externa
+14. Revisao e Aprovacao
+15. Publicacao
+16. Metricas e Analise
+
+MODULOS OBRIGATORIOS
+- tracking, atribuicao e metricas operacionais
+- captacao propria
+- prova social e UGC
+- monitoramento de reputacao publica
+- pesquisa profunda do artigo
+- comunidade e feedback
+- performance comercial
+- bootstrap OpenCode para agents e skills
+
+REGRAS GERAIS DE EXECUCAO
+1. Nao inventar outro escopo.
+2. Nao preservar nomenclatura generica em conflito.
+3. Nao mudar arquitetura sem necessidade extrema.
+4. Nao alterar schema, agents e skills validos sem motivo real.
+5. Preservar o tecnicamente correto e reescrever o semanticamente fora do escopo.
+6. Corrigir camada visual e logica funcional exposta ao usuario.
+7. Em duvida entre estrutura atual e escopo base, escopo base vence.
+8. Nao fazer apenas cosmetica visual; fazer aderencia real de produto.
+9. Toda UI em portugues do Brasil.
+10. O sistema deve comunicar clareza operacional imediata.
+
+MISSAO
+Transformar o CRM_MKT_DC em uma central inteligente de producao, refinamento, adaptacao, automacao, geracao visual guiada e analise de conteudo afiliado para Decisao Certa Ferramentas.

@@ -1,0 +1,38 @@
+[CHECKLIST DE PUBLICACAO]
+
+Campanha:
+- 2026-03-18_venda_martelete
+
+Data:
+- 2026-03-18
+
+Canal:
+- Instagram Reels / Story / Facebook / Status WhatsApp
+
+[VALIDACAO COMERCIAL]
+[ok] O equipamento existe no catalogo oficial
+[ok] A classificacao tecnica esta correta
+[pendente] A disponibilidade foi verificada manualmente
+[ok] O preco nao aparece na postagem
+[ok] O CTA direciona para o WhatsApp
+[ok] O numero do WhatsApp esta correto: (67) 99632-2626
+
+[VALIDACAO DE TEXTO]
+[ok] A headline esta clara em ate 3 segundos
+[ok] O texto esta curto e objetivo
+[ok] A linguagem esta adequada ao publico
+[ok] O texto resolve um problema real
+[ok] A legenda esta coerente com a arte
+[ok] Nao ha informacao contraditoria
+
+[VALIDACAO VISUAL]
+[ok] A identidade visual esta correta
+[ok] As cores seguem o padrao azul e amarelo
+[ok] A logo usada esta correta
+[ok] O mascote usado esta correto
+[ok] O layout esta limpo
+[ok] A leitura esta facil no celular
+
+[VALIDACAO FINAL]
+[pendente] Arte final aprovada
+[pendente] Publicacao autorizada

@@ -1,0 +1,85 @@
+[FLUXO OPERACIONAL DE PRODUCAO - DECISAO CERTA AFILIADOS]
+
+[OBJETIVO]
+Padronizar o ciclo ponta a ponta de conteudo afiliado:
+- entrada
+- classificacao
+- refino SEO
+- humanizacao
+- produto
+- adaptacao por canal
+- tracking
+- validacao
+- publicacao assistida
+- leitura inicial de metricas
+
+[ETAPA 1 - ENTRADA]
+- registrar origem do conteudo
+- definir conteudo_id
+- registrar autor e data
+
+[ETAPA 2 - CLASSIFICACAO]
+- classificar tipo_conteudo
+- definir intencao_busca e funil
+- avaliar suficiencia_material
+- registrar faltantes
+
+[ETAPA 3 - SEO]
+- definir keyword principal e secundarias
+- gerar titulo_seo
+- gerar meta_description
+- organizar headings
+
+[ETAPA 4 - HUMANIZACAO]
+- inserir experiencia_real
+- inserir opiniao_honesta
+- inserir bastidor
+- inserir exemplo_pratico
+
+[ETAPA 5 - PRODUTO AFILIADO]
+- mapear produto, marca, modelo e categoria
+- registrar uso_principal
+- preparar comparativos
+
+[ETAPA 6 - ADAPTACAO MULTICANAL]
+- gerar saidas por canal
+- definir formato_por_canal
+- definir cta_por_canal
+- ajustar por publico
+
+[ETAPA 7 - GRUPOS DE VENDA]
+- gerar versao whatsapp
+- gerar versao telegram
+- definir tipo_oferta e cta_direto
+
+[ETAPA 8 - PROVA SOCIAL E REPUTACAO]
+- sintetizar comentarios relevantes
+- registrar objecoes e elogios
+- resumir sinais de reputacao publica
+
+[ETAPA 9 - TRACKING E ATRIBUICAO]
+- preencher utm_source
+- preencher utm_medium
+- preencher utm_campaign
+- preencher subid
+- validar link por canal
+
+[ETAPA 10 - VALIDACAO FINAL]
+- aplicar checklist_publicacao
+- identificar bloqueios
+- registrar pendencias
+- definir status_aprovacao
+
+[ETAPA 11 - PUBLICACAO ASSISTIDA]
+- montar fila de publicacao
+- definir agendamento
+- confirmar pacote para WordPress/canais
+
+[ETAPA 12 - METRICAS INICIAIS]
+- registrar leitura inicial esperada
+- marcar campos dependentes de dados externos
+- gerar recomendacao de proximo ajuste
+
+[REGRA CENTRAL]
+Nao usar logica de operacao de locacao (retirada, devolucao, diaria, frota).
+Priorizar decisao de compra, comparacao, conversao e rastreabilidade.

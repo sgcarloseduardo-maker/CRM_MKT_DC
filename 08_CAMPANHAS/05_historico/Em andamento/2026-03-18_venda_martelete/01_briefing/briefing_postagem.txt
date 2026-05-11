@@ -1,0 +1,306 @@
+[BRIEFING DA POSTAGEM]
+
+[IDENTIFICACAO]
+Data da solicitação:
+Responsável pela solicitação:
+Canal principal:
+- Instagram
+- Facebook
+- Story
+- Reels
+- Feed
+- Status WhatsApp
+- Lista de transmissão
+Objetivo da peça:
+Nome interno da campanha:
+
+[OBJETIVO COMERCIAL]
+Objetivo principal:
+- Gerar contato no WhatsApp
+- Consultar disponibilidade
+- Consultar valores
+- Fechar locação
+- Reforçar lembrança de marca
+- Divulgar equipamento
+- Divulgar oferta específica
+- Educar o cliente
+- Mostrar solução prática
+
+Objetivo secundário:
+Mensagem principal da campanha:
+Problema real que a postagem deve resolver:
+Resultado que o cliente deseja:
+
+[PUBLICO]
+Público principal:
+- Pessoa Física ligada à construção
+- Pessoa Física não ligada à construção
+- Pessoa Jurídica não ligada à construção
+- Pessoa Jurídica ligada à construção
+
+Perfil resumido do público:
+Dor principal do público:
+Objeção principal:
+Gatilho principal:
+Tom de comunicação:
+- informal
+- prático
+- direto
+- profissional
+- objetivo
+- amigável
+
+[NOME DO EQUIPAMENTO]
+Categoria:
+Equipamento:
+Subtipo / variação:
+Modelo interno, se necessário:
+Peso / porte, se necessário:
+Regra de classificação:
+- martelete até 9,9kg
+- rompedor acima de 10kg
+Observação técnica importante:
+
+[DISPONIBILIDADE E CONDICAO COMERCIAL]
+Disponível agora:
+Quantidade disponível:
+Período da disponibilidade:
+Tem oferta especial?
+- sim
+- não
+
+Se sim, informar:
+Tipo de oferta:
+- diária
+- semanal
+- pacote final de semana
+- mensal
+- desconto autorizado
+- condição especial
+
+Preço pode aparecer na postagem?
+- sim
+- não
+
+Se sim, informar texto exato autorizado:
+Se não, usar CTA para consulta no WhatsApp:
+- sim
+- não
+
+Condição comercial autorizada:
+Validade da oferta:
+Restrições da oferta:
+Necessita aprovação final antes de publicar?
+- sim
+- não
+
+[FOCO DA PECA]
+Tipo de peça:
+- venda direta
+- institucional
+- educativa
+- comparativa
+- demonstração
+- prova social
+- tutorial rápido
+- campanha sazonal
+
+A peça deve destacar:
+- equipamento
+- benefício
+- problema resolvido
+- facilidade de locação
+- agilidade
+- pouca burocracia
+- economia
+- praticidade
+- atendimento
+
+Benefício principal:
+Benefício secundário:
+Diferencial da Casa do Construtor nessa peça:
+Mensagem que precisa ficar clara em 3 segundos:
+
+[CTA]
+CTA principal:
+- Chame no WhatsApp
+- Peça seu orçamento
+- Reserve agora
+- Consulte disponibilidade
+
+CTA secundário:
+A ação final obrigatória deve levar para:
+- WhatsApp
+
+Texto exato do CTA:
+Link ou número para ação:
+Precisa mencionar Instagram ou Facebook?
+- sim
+- não
+
+[FORMATO]
+Formato da entrega:
+- post feed 1080x1080
+- story 1080x1920
+- reel
+- carrossel
+- capa de destaque
+- status WhatsApp
+- arte para disparo
+
+Quantidade de peças:
+Precisa de versão quadrada?
+- sim
+- não
+Precisa de versão story?
+- sim
+- não
+Precisa de versão status?
+- sim
+- não
+
+[VISUAL]
+Usar mascote?
+- sim
+- não
+
+Se sim, qual?
+- Construlino humano
+- mascote canino
+- ambos
+
+Mascote em qual ação?
+- apontando
+- acenando
+- joinha
+- pensando
+- apresentando equipamento
+- interagindo com a cena
+
+Usar equipamento em destaque?
+- sim
+- não
+
+Qual equipamento aparece visualmente?
+Fundo preferido:
+- azul institucional
+- amarelo institucional
+- branco
+- composição azul e amarelo
+
+Estilo visual:
+- industrial
+- técnico
+- promocional
+- limpo
+- robusto
+- moderno
+
+Precisa usar logo?
+- sim
+- não
+
+Versão da logo:
+- horizontal
+- vertical
+- sem fundo
+- amarela sobre azul
+- azul sobre amarelo
+
+Observações visuais:
+Elementos obrigatórios:
+Elementos proibidos:
+
+[TEXTO DA PECA]
+Headline principal:
+Headline secundária:
+Frase complementar:
+Texto curto de apoio:
+Texto técnico, se necessário:
+Texto promocional autorizado:
+Texto institucional autorizado:
+Texto que não pode faltar:
+Texto que não pode aparecer:
+
+[ROTEIRO PARA REEL OU STORY]
+Gancho inicial:
+Frase de abertura:
+Cena 1:
+Cena 2:
+Cena 3:
+Cena 4:
+Encerramento:
+Texto da tela:
+Legenda do vídeo:
+Fala ou locução:
+CTA final do vídeo:
+
+[LEGENDA]
+Legenda curta:
+Legenda média:
+Legenda completa:
+Hashtags autorizadas:
+Marcar localização?
+- sim
+- não
+
+Se sim, qual localização:
+- Chapadão do Sul - MS
+- Rua Pará, 539, Sucupira
+
+[INFORMACOES OPERACIONAIS]
+Responsável pela aprovação:
+Data limite para publicar:
+Horário ideal:
+Campanha sazonal?
+- sim
+- não
+
+Se sim, qual:
+Peça única ou sequência?
+- única
+- sequência
+
+Se sequência, quantas:
+Essa peça depende de mais materiais?
+- sim
+- não
+
+Se sim, quais:
+Observações internas:
+Observações do comercial:
+Observações do atendimento:
+Observações do gestor:
+
+[CHECKLIST FINAL]
+- O equipamento está no catálogo oficial de marketing
+- A classificação do equipamento está correta
+- A disponibilidade foi atualizada manualmente
+- O preço só aparece se houver autorização
+- O CTA leva para o WhatsApp
+- A linguagem está adequada ao público
+- A identidade visual está correta
+- A logo usada está correta
+- O mascote está correto
+- A peça não inventa promoção
+- A peça resolve um problema real
+- A leitura está rápida e clara
+- A publicação está aprovada
+
+[MODELO RAPIDO PREENCHIDO]
+Data da solicitação:
+Canal principal:
+Objetivo principal:
+Público principal:
+Categoria:
+Equipamento:
+Disponível agora:
+Tem oferta especial?
+Preço pode aparecer?
+Benefício principal:
+Headline principal:
+CTA principal:
+Formato:
+Usar mascote?
+Prazo:
+Observações finais:

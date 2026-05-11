@@ -1,0 +1,19 @@
+[HEADLINE]
+
+Headline principal:
+- 
+
+Headline secundaria:
+- 
+
+Variacao 1:
+- 
+
+Variacao 2:
+- 
+
+Variacao 3:
+- 
+
+Mensagem principal em ate 3 segundos:
+- 

@@ -1,0 +1,123 @@
+{
+  "marca": {
+    "nome": "Decisao Certa Ferramentas",
+    "segmento": "Conteudo afiliado para ferramentas",
+    "objetivo_comercial_principal": "Gerar conversao qualificada por review e comparacao"
+  },
+  "posicionamento": {
+    "percepcao_desejada": "Referencia confiavel para decisao de compra",
+    "atributos": [
+      "confiavel",
+      "tecnica",
+      "objetiva",
+      "didatica",
+      "comparativa"
+    ],
+    "promessa_central": "Ajudar o comprador a escolher melhor antes de comprar",
+    "proposta_de_valor": "Review pratico, comparacao honesta e recomendacao acionavel"
+  },
+  "tom_de_voz": {
+    "pilares": [
+      "clareza",
+      "objetividade",
+      "honestidade",
+      "utilidade"
+    ],
+    "evitar": [
+      "promessa absoluta",
+      "sensacionalismo",
+      "linguagem vaga"
+    ]
+  },
+  "publicos": [
+    {
+      "id": "comprador_iniciante",
+      "nome": "Comprador iniciante",
+      "dor_principal": "medo de comprar produto inadequado",
+      "o_que_valoriza": [
+        "explicacao simples",
+        "indicacao clara",
+        "custo-beneficio"
+      ]
+    },
+    {
+      "id": "comprador_comparador",
+      "nome": "Comprador que compara opcoes",
+      "dor_principal": "duvida entre modelos parecidos",
+      "o_que_valoriza": [
+        "comparativo direto",
+        "prós e contras",
+        "criterio tecnico"
+      ]
+    },
+    {
+      "id": "publico_tecnico",
+      "nome": "Publico tecnico",
+      "dor_principal": "falta de informacao confiavel",
+      "o_que_valoriza": [
+        "detalhe tecnico",
+        "cenario de uso real",
+        "consistencia"
+      ]
+    }
+  ],
+  "identidade_visual": {
+    "cores_principais": [
+      {
+        "nome": "azul_profundo",
+        "hex": "#163A5F"
+      },
+      {
+        "nome": "laranja_destaque",
+        "hex": "#F28C28"
+      },
+      {
+        "nome": "azul_secundario",
+        "hex": "#245C90"
+      },
+      {
+        "nome": "cinza_chumbo",
+        "hex": "#1F2329"
+      },
+      {
+        "nome": "branco",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "fontes_oficiais": {
+      "titulos": "Orbitron",
+      "textos": "Raleway"
+    },
+    "direcao_visual": [
+      "alto contraste",
+      "leitura rapida",
+      "visual tecnico limpo"
+    ]
+  },
+  "temas_permitidos": [
+    "review tecnico",
+    "comparacao",
+    "prova social sintetizada",
+    "objecoes de compra",
+    "faq de decisao",
+    "custo-beneficio"
+  ],
+  "temas_proibidos": [
+    "retirada",
+    "devolucao",
+    "diaria de locacao",
+    "fechamento de locacao",
+    "estoque operacional local"
+  ],
+  "regras_de_conversao": {
+    "cta_por_canal_obrigatorio": true,
+    "tracking_obrigatorio": true,
+    "campos_tracking": [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "subid"
+    ],
+    "compliance_obrigatorio": true
+  }
+}

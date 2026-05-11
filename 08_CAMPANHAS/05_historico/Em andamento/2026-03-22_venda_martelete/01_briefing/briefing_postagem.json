@@ -1,0 +1,19 @@
+{
+  "data_campanha": "2026-03-22",
+  "objetivo": "venda",
+  "equipamento": "martelete",
+  "publico": "pfconstrucao",
+  "canal_principal": "Instagram Reels",
+  "cta_principal": "Chame no WhatsApp",
+  "usar_preco": false,
+  "preco_autorizado": false,
+  "disponibilidade": "atualizar manualmente",
+  "responsavel": "Carlos",
+  "observacoes": "Teste Fase 1 completo",
+  "_meta": {
+    "criado_em": "2026-03-22T14:40:34",
+    "campaign_name": "2026-03-22_venda_martelete",
+    "campaign_path": "C:\\Users\\sgcar\\OneDrive\\Desktop\\IA Casa do Construtor\\03_CAMPANHAS\\Em andamento\\2026-03-22_venda_martelete",
+    "modelo_resultado": "modelo_base_copiado"
+  }
+}

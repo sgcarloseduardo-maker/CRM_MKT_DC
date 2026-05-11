@@ -1,0 +1,35 @@
+{
+  "name": "crm-mkt-dc-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "sync:styles": "node scripts/sync-globals-css.mjs",
+    "predev": "npm run sync:styles",
+    "prebuild": "npm run sync:styles",
+    "dev": "next dev",
+    "build": "next build",
+    "verify:style": "node scripts/verify-style-contract.mjs",
+    "build:safe": "npm run verify:style && npm run build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^3.0.3",
+    "jszip": "^3.10.1",
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3"
+  }
+}

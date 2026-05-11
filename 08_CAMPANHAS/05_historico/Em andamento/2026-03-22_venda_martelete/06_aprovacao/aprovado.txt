@@ -1,0 +1,20 @@
+[APROVACAO FINAL]
+
+Campanha:
+Data:
+Responsavel pela aprovacao:
+
+Itens aprovados:
+- briefing
+- texto
+- arte
+- legenda
+- video
+- CTA
+- checklist
+
+Observacoes finais:
+- 
+
+Status final:
+- aprovado

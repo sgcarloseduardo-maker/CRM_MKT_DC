@@ -1,0 +1,24 @@
+[OBSERVACOES INTERNAS]
+
+Campanha:
+- 2026-03-18_venda_martelete
+
+Responsavel:
+- Carlos
+
+Pontos de atencao:
+- Atualizar disponibilidade antes de publicar
+- Nao inserir preco
+- Priorizar resposta rapida no WhatsApp
+
+Restricoes comerciais:
+- Sem preco no post
+- Sem promocao nao autorizada
+
+Restricoes visuais:
+- Manter composicao azul e amarelo
+- Usar Construlino
+- Usar logo horizontal
+
+Prazo final:
+- 2026-03-18

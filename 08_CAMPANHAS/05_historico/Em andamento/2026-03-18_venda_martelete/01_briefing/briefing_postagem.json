@@ -1,0 +1,116 @@
+{
+  "briefing_postagem": {
+    "identificacao": {
+      "data_solicitacao": "2026-03-18",
+      "responsavel_solicitacao": "Carlos",
+      "nome_interno_campanha": "martelete_contato_whatsapp",
+      "prioridade": "alta",
+      "status": "rascunho"
+    },
+    "canais": {
+      "canal_principal": "Instagram Reels",
+      "canais_secundarios": [
+        "Instagram Story",
+        "Facebook Feed",
+        "Status WhatsApp"
+      ]
+    },
+    "objetivo": {
+      "objetivo_principal": "Gerar contato no WhatsApp",
+      "objetivo_secundario": "Consultar disponibilidade",
+      "problema_real_que_a_peca_resolve": "Cliente precisa quebrar concreto, piso ou parede sem comprar equipamento",
+      "resultado_que_o_cliente_deseja": "Resolver o servico com rapidez, praticidade e pouco esforco"
+    },
+    "publico": {
+      "publico_principal": "Pessoa Fisica ligada a construcao",
+      "perfil_resumido": "Pedreiros, mestres de obra, pintores e eletricistas que precisam resolver servicos com rapidez",
+      "dor_principal": "Precisa do equipamento certo no mesmo dia",
+      "objecao_principal": "Medo de pegar equipamento inadequado ou perder tempo",
+      "gatilho_principal": "Agilidade com pouca burocracia",
+      "tom_comunicacao": "informal, pratico e direto"
+    },
+    "equipamento": {
+      "categoria": "Construção",
+      "equipamento": "Martelete",
+      "subtipo_variacao": "Martelete para quebra leve e media",
+      "modelo_interno": "",
+      "peso_porte": "ate 9,9kg",
+      "classificacao_aplicada": "Martelete",
+      "observacao_tecnica_importante": "Usar classificacao de martelete para equipamentos de 9,9kg ou menos"
+    },
+    "disponibilidade_e_condicao_comercial": {
+      "disponivel_agora": "Atualizar no momento da campanha",
+      "quantidade_disponivel": "Atualizar no momento da campanha",
+      "periodo_disponibilidade": "Atualizar no momento da campanha",
+      "tem_oferta_especial": false,
+      "tipo_oferta": "",
+      "preco_pode_aparecer_na_postagem": false,
+      "texto_exato_autorizado_para_preco": "",
+      "condicao_comercial_autorizada": "Consultar disponibilidade e valores no WhatsApp",
+      "validade_oferta": "",
+      "restricoes_oferta": "",
+      "necessita_aprovacao_final": true
+    },
+    "foco_da_peca": {
+      "tipo_peca": "Venda direta",
+      "deve_destacar": [
+        "equipamento",
+        "beneficio",
+        "problema resolvido",
+        "facilidade de locacao",
+        "agilidade",
+        "pouca burocracia"
+      ],
+      "beneficio_principal": "Resolver quebra de concreto e piso com praticidade",
+      "beneficio_secundario": "Aluguel rapido sem precisar comprar equipamento",
+      "diferencial_da_marca_nesta_peca": "Atendimento rapido com orientacao e locacao local",
+      "mensagem_que_precisa_ficar_clara_em_3_segundos": "Precisa quebrar concreto? Alugue o martelete certo"
+    },
+    "cta": {
+      "cta_principal": "Chame no WhatsApp",
+      "cta_secundario": "Consulte disponibilidade",
+      "acao_final_obrigatoria": "WhatsApp",
+      "texto_exato_cta": "Chame no WhatsApp e consulte a disponibilidade do martelete",
+      "telefone_whatsapp": "(67) 99632-2626",
+      "instagram": "@casadoconstrutorchapadaodosul",
+      "facebook": "/casadoconstrutorchapadaodosul",
+      "site": "https://casadoconstrutor.com.br/chapadaodosul"
+    },
+    "formato_entrega": {
+      "formato_principal": "Instagram Reels",
+      "quantidade_pecas": 1,
+      "precisa_versao_quadrada": true,
+      "precisa_versao_story": true,
+      "precisa_versao_status": true,
+      "precisa_versao_facebook": true
+    },
+    "visual": {
+      "usar_mascote": true,
+      "mascote_escolhido": "Construlino humano",
+      "acao_do_mascote": "apresentando equipamento",
+      "usar_equipamento_em_destaque": true,
+      "equipamento_aparece_visual": "Martelete",
+      "fundo_preferido": "Composicao azul e amarelo",
+      "estilo_visual": [
+        "industrial",
+        "promocional",
+        "limpo",
+        "robusto"
+      ],
+      "usar_logo": true,
+      "versao_logo": "horizontal",
+      "elementos_obrigatorios": [
+        "logo",
+        "WhatsApp",
+        "headline curta",
+        "equipamento em destaque"
+      ],
+      "elementos_proibidos": [
+        "preco sem autorizacao",
+        "texto excessivo",
+        "cores fora da identidade visual"
+      ],
+      "observacoes_visuais": "Usar fundo azul predominante, bloco amarelo de destaque e leitura rapida"
+    }
+  }
+}

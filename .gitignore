@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Prisma
+13_APP/prisma/dev.db
+13_APP/prisma/dev.db-journal
+
+# Assets/cache
+06_ASSETS/08_arquivados/tmp/

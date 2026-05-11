@@ -1,0 +1,246 @@
+{
+  "pacote_operacional_final": {
+    "identificacao": {
+      "conteudo_id": "dcaf-2026-05-03-review-furadeira-v1",
+      "tipo_entrada": "documento_interno",
+      "origem": "04_CONTEUDO_MESTRE/02_pautas_aprovadas/briefing_postagem.json",
+      "data_entrada": "2026-05-03T14:00:00-04:00",
+      "autor_responsavel": "time_editorial",
+      "status_geral": "monitorando_resultados",
+      "versao": "v1"
+    },
+    "classificacao_editorial": {
+      "tipo_conteudo": "review_tecnico",
+      "tema": "Furadeira de impacto para uso residencial e profissional leve",
+      "nicho": "ferramentas",
+      "subtipo": "comparativo de custo-beneficio",
+      "intencao_busca": "comercial-investigativa",
+      "estagio_funil": "fundo",
+      "suficiencia_material": "suficiente",
+      "faltantes_identificados": []
+    },
+    "seo_estrutura": {
+      "keyword_principal": "melhor furadeira de impacto",
+      "keywords_secundarias": [
+        "furadeira de impacto custo beneficio",
+        "furadeira para parede e concreto",
+        "qual furadeira comprar"
+      ],
+      "titulo_seo": "Melhor Furadeira de Impacto: review tecnico e comparativo para comprar certo",
+      "meta_description": "Veja os criterios que realmente importam para escolher furadeira de impacto, com comparativo direto e recomendacao para cada perfil.",
+      "headings": {
+        "h1": "Review: furadeira de impacto",
+        "h2": [
+          "Para quem vale a pena",
+          "Comparativo rapido entre faixas",
+          "Erros comuns antes de comprar",
+          "FAQ de compra"
+        ],
+        "h3": [
+          "Potencia",
+          "Mandril e ergonomia",
+          "Assistencia e garantia"
+        ]
+      },
+      "faq": [
+        "Qual potencia minima para uso misto?",
+        "Quando vale pagar mais?",
+        "Qual acessorio e indispensavel?"
+      ],
+      "escaneabilidade": "ok",
+      "observacoes_editoriais": "Listas curtas e comparativo por perfil"
+    },
+    "humanizacao": {
+      "pontos_experiencia_real": [
+        "Teste de perfuracao em parede comum"
+      ],
+      "pontos_opiniao_honesta": [
+        "Nem sempre a opcao mais potente e a melhor compra"
+      ],
+      "pontos_bastidor": [
+        "Criterio interno de avaliacao por uso real"
+      ],
+      "pontos_exemplo_pratico": [
+        "Instalacao de suporte e prateleira"
+      ],
+      "observacoes_autor": "Evitar hype e focar em criterio"
+    },
+    "produtos": {
+      "produtos_citados": [
+        "furadeira_de_impacto_750w"
+      ],
+      "marca": "multimarca",
+      "modelo": "linha 750w",
+      "categoria": "furadeiras_e_parafusadeiras",
+      "uso_principal": "perfuração residencial e uso profissional leve",
+      "comparativos": [
+        "750w vs 650w",
+        "entrada vs intermediaria"
+      ],
+      "elegibilidade_por_canal": {
+        "blog": "apto",
+        "youtube": "apto",
+        "instagram_reels": "apto",
+        "tiktok": "apto"
+      },
+      "links_afiliados": [
+        "https://exemplo-afiliado.com/furadeira-750w?utm_source=instagram&utm_medium=social&utm_campaign=review_furadeira_750w&subid=ig-reels-v1"
+      ],
+      "status_link": "valido"
+    },
+    "social_canais": {
+      "saidas_por_canal": {
+        "instagram_feed": "Resumo comparativo em 5 pontos",
+        "instagram_reels": "Gancho + criterio + CTA",
+        "youtube": "Review curto com quadro de decisao",
+        "tiktok": "Erro comum + dica pratica + CTA"
+      },
+      "formato_por_canal": {
+        "instagram_feed": "carrossel",
+        "instagram_reels": "video_curto",
+        "youtube": "video_review_curto",
+        "tiktok": "video_curto"
+      },
+      "cta_por_canal": {
+        "instagram_feed": "Ver review completo",
+        "instagram_reels": "Abrir comparativo com link",
+        "youtube": "Link com recomendacao na descricao",
+        "tiktok": "Clique para comparar modelos"
+      },
+      "adaptacao_por_publico": {
+        "iniciante": "evitar compra errada",
+        "intermediario": "custo-beneficio por uso",
+        "tecnico": "criterio de potencia e durabilidade"
+      },
+      "prioridade_por_canal": {
+        "instagram_reels": "alta",
+        "youtube": "alta",
+        "tiktok": "media",
+        "instagram_feed": "media"
+      },
+      "observacoes_publicacao": "Manter CTA rastreavel em todos os canais"
+    },
+    "grupos_venda": {
+      "whatsapp": "Comparativo rapido: qual furadeira entrega melhor custo-beneficio para seu uso?",
+      "telegram": "Review tecnico resumido com recomendacao por perfil.",
+      "tipo_oferta": "lista_achados",
+      "texto_curto": "Veja a melhor opcao para seu perfil antes de comprar.",
+      "cta_direto": "Abrir comparativo",
+      "urgencia": "baixa",
+      "status_aprovacao": "aprovado"
+    },
+    "prova_social_comentarios": {
+      "comentarios_blog": [
+        "Resumo: comprador valorizou o quadro de decisao"
+      ],
+      "comentarios_youtube": [
+        "Resumo: duvida recorrente sobre torque e potencia"
+      ],
+      "comentarios_redes": [
+        "Resumo: elogio a objetividade do comparativo"
+      ],
+      "sentimento": "positivo",
+      "objecoes": [
+        "duvida sobre durabilidade",
+        "duvida sobre assistencia"
+      ],
+      "elogios": [
+        "linguagem clara",
+        "comparacao pratica"
+      ],
+      "perguntas_frequentes": [
+        "750w e suficiente?",
+        "Qual mandril escolher?"
+      ],
+      "trechos_aproveitaveis": [
+        "objecoes para FAQ",
+        "elogios para prova social"
+      ],
+      "score_relevancia": 85
+    },
+    "reputacao_publica": {
+      "fonte_publica": "comentarios e comunidades de compra",
+      "volume_reclamacoes": "baixo",
+      "principais_problemas": [
+        "falta de comparacao honesta",
+        "copy vaga de marketplace"
+      ],
+      "resolucao": "conteudo com criterio reduz incerteza",
+      "risco_marca": "baixo",
+      "resumo_editorial": "manter transparencia sobre limites de cada modelo"
+    },
+    "tracking_atribuicao": {
+      "utm_source": "instagram",
+      "utm_medium": "social",
+      "utm_campaign": "review_furadeira_750w",
+      "subid": "ig-reels-v1",
+      "canal": "instagram_reels",
+      "criativo": "gancho-criterio-cta-v1",
+      "cta": "abrir-comparativo",
+      "produto": "furadeira_de_impacto_750w",
+      "status_validacao_link": "valido"
+    },
+    "metricas": {
+      "canal": "instagram_reels",
+      "formato": "video_curto",
+      "alcance": "pendente_dado_real",
+      "clique": "pendente_dado_real",
+      "ctr": "pendente_dado_real",
+      "retencao": "pendente_dado_real",
+      "produto_mais_clicado": "pendente_dado_real",
+      "criativo_mais_clicado": "pendente_dado_real",
+      "versao_comparada": "v1_vs_v2_pendente",
+      "leitura_desempenho": "Esperado: melhor desempenho com comparativo direto e CTA claro"
+    },
+    "publicacao_validacao": {
+      "checklist_final": {
+        "titulo_seo": "ok",
+        "estrutura_headings": "ok",
+        "humanizacao": "ok",
+        "link": "ok",
+        "cta": "ok",
+        "produto": "ok",
+        "rede_formato": "ok"
+      },
+      "compliance": "ok",
+      "status_aprovacao": "pronto_para_publicacao",
+      "fila_publicacao": "fila-2026-05-03-lote-review-01",
+      "agendamento": "2026-05-06T10:30:00-04:00",
+      "wordpress": "postagem_assistida_pronta",
+      "midia": "pendente_upload_manual",
+      "categorias_tags": {
+        "categorias": [
+          "Reviews",
+          "Comparativos"
+        ],
+        "tags": [
+          "furadeira",
+          "custo-beneficio",
+          "guia de compra"
+        ]
+      },
+      "bloqueios": [],
+      "observacoes_finais": "Pendencia leve apenas de upload de midia"
+    },
+    "status_transicao": [
+      "novo",
+      "em_analise",
+      "em_refino",
+      "aguardando_humanizacao",
+      "versao_mestre_pronta",
+      "adaptando_canais",
+      "aguardando_validacao",
+      "pronto_para_publicacao",
+      "monitorando_resultados"
+    ],
+    "handoff_log": [
+      {
+        "origem": "orchestrator-crm",
+        "destino": "seo-editor",
+        "data": "2026-05-03T14:00:00-04:00",
+        "responsavel": "teste-operacional",
+        "status": "concluido"
+      }
+    ]
+  }
+}

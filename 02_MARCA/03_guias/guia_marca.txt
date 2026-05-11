@@ -1,0 +1,105 @@
+[NOME DA MARCA]
+Nome da marca: Decisao Certa Ferramentas
+Segmento: Midia e operacao de conteudo afiliado para ferramentas
+Objetivo comercial principal: Gerar conversao qualificada via conteudo de review e comparacao
+
+[POSICIONAMENTO]
+A marca deve ser percebida como:
+- confiavel
+- tecnica
+- objetiva
+- comparativa
+- orientada a decisao de compra
+
+Promessa central da marca:
+- Ajudar o comprador a escolher melhor antes de clicar e comprar
+
+Proposta de valor:
+- Review pratico, comparacao honesta e recomendacao acionavel
+
+[TOM DE VOZ]
+Tom principal:
+- direto
+- claro
+- didatico
+- sem exagero promocional
+
+Evitar:
+- promessas absolutas
+- linguagem vaga
+- agressividade comercial
+
+[PUBLICO]
+Publicos prioritarios:
+- comprador iniciante de ferramentas
+- comprador recorrente que compara opcoes
+- publico tecnico que busca especificacao antes de comprar
+
+Dores prioritarias:
+- duvida sobre custo-beneficio
+- medo de comprar produto inadequado
+- excesso de opcao sem criterio claro
+
+[PALAVRAS E TEMAS PERMITIDOS]
+- review tecnico
+- comparativo
+- custo-beneficio
+- ponto forte
+- ponto de atencao
+- para quem vale a pena
+- testes e cenarios de uso
+- prova social sintetizada
+
+[PALAVRAS E TEMAS PROIBIDOS]
+- retirada de equipamento
+- devolucao
+- diaria de locacao
+- fechamento de locacao
+- disponibilidade fisica de frota
+- estoque operacional local como foco central
+
+[IDENTIDADE VISUAL]
+Paleta principal:
+- azul profundo: #163A5F
+- laranja destaque: #F28C28
+- azul secundario: #245C90
+- cinza chumbo: #1F2329
+- branco: #FFFFFF
+
+Tipografia sugerida:
+- titulos: Orbitron
+- textos e apoio: Raleway
+
+Direcao visual:
+- contraste alto
+- leitura rapida
+- foco em clareza comparativa
+- visual limpo e tecnico
+
+[CANAIS PRIORITARIOS]
+- blog/site
+- instagram
+- youtube
+- tiktok
+- facebook
+- whatsapp
+- telegram
+- marketplaces e vitrines afiliadas
+
+[REGRAS DE CONVERSAO]
+- todo conteudo deve ter CTA claro por canal
+- links devem sair com rastreamento (UTM e SubID)
+- claims devem ser verificaveis e sem promessa enganosa
+
+[EXEMPLOS DE USO DA MARCA]
+Exemplo 1 (review):
+- "Vale a pena comprar a furadeira X para uso domestico? Veja pontos fortes, limites e para quem recomendamos."
+
+Exemplo 2 (comparativo):
+- "Parafusadeira A vs B: qual entrega melhor controle, bateria e custo-beneficio?"
+
+Exemplo 3 (social curto):
+- "Se voce quer evitar compra errada, confira os 3 criterios que usamos antes de recomendar."
+
+[REGRA FINAL]
+No CRM_MKT_DC, a operacao deve priorizar conteudo afiliado, comparacao tecnica, prova social sintetizada, tracking e publicacao assistida.

@@ -1,0 +1,68 @@
+[MODELO DE NOMEACAO DE ARQUIVOS - DECISAO CERTA AFILIADOS]
+
+[OBJETIVO]
+Padronizar nomes de arquivos operacionais para facilitar busca, auditoria e automacao futura.
+
+[REGRAS GERAIS]
+1. usar minusculas
+2. sem acento
+3. sem espaco
+4. separar por underscore
+5. incluir data quando o arquivo for operacional
+6. incluir versao quando houver ajuste
+
+[ESTRUTURA PADRAO]
+tipo_objetivo_produto_canal_data_versao.ext
+
+[TIPOS]
+- briefing
+- review
+- comparativo
+- roteiro
+- legenda
+- copy
+- checklist
+- relatorio
+- insight
+- prompt
+- validacao
+- pacote
+
+[OBJETIVOS]
+- review
+- comparacao
+- conversao
+- prova_social
+- educacao
+- faq
+- alerta
+
+[CANAIS]
+- blog
+- instagram_feed
+- instagram_stories
+- instagram_reels
+- facebook_feed
+- youtube
+- tiktok
+- kwai
+- whatsapp
+- telegram
+- mercado_livre
+- shopee
+
+[EXEMPLOS]
+- briefing_review_furadeira_blog_2026-05-03_v1.json
+- roteiro_comparacao_parafusadeira_youtube_2026-05-03_v1.txt
+- legenda_conversao_serra_tiktok_2026-05-03_v2.txt
+- pacote_review_furadeira_instagram_reels_2026-05-03_v1.json
+- validacao_comparativo_parafusadeira_blog_2026-05-03_v1.md
+
+[NOMES ESTAVEIS OBRIGATORIOS]
+- guia_marca.json
+- guia_marca.txt
+- briefing_postagem.json
+- briefing_postagem.txt
+- prompt_mestre_postagem.txt
+- prompt_mestre_reels.txt
+- prompt_mestre_legenda.txt

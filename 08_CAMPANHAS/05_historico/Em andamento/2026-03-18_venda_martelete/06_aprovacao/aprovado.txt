@@ -1,0 +1,25 @@
+[APROVACAO FINAL]
+
+Campanha:
+- 2026-03-18_venda_martelete
+
+Data:
+- 
+
+Responsavel pela aprovacao:
+- 
+
+Itens aprovados:
+- briefing
+- texto
+- arte
+- legenda
+- video
+- CTA
+- checklist
+
+Observacoes finais:
+- 
+
+Status final:
+- aprovado

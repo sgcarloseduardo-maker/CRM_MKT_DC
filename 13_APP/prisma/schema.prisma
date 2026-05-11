@@ -1,0 +1,344 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String     @id @default(cuid())
+  username     String     @unique
+  passwordHash String
+  role         String     @default("editor")
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  sessions     Session[]
+  auditLogs    AuditLog[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model AffiliateProduct {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  name         String
+  category     String
+  brand        String?
+  affiliateUrl String?
+  priceRange   String?
+  notes        String?
+  isPriority   Boolean    @default(false)
+  campaigns    Campaign[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model BrandGuide {
+  id         String   @id @default(cuid())
+  title      String
+  version    String   @default("v1")
+  voiceRules String
+  visualRules String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Channel {
+  id         String                @id @default(cuid())
+  slug       String                @unique
+  name       String
+  strategy   String?
+  active     Boolean               @default(true)
+  prompts    PromptTemplate[]
+  campaigns  Campaign[]
+  briefs     ContentBrief[]
+  checklists ComplianceChecklist[]
+  plans      PublicationPlan[]
+  logs       PublicationLog[]
+  metrics    MetricSnapshot[]
+  createdAt  DateTime              @default(now())
+}
+
+model Campaign {
+  id                 String           @id @default(cuid())
+  name               String
+  objective          String
+  status             String           @default("planning")
+  startDate          DateTime?
+  endDate            DateTime?
+  notes              String?
+  channelId          String
+  affiliateProductId String?
+  contentMasterId    String?
+  channel            Channel          @relation(fields: [channelId], references: [id])
+  affiliateProduct   AffiliateProduct? @relation(fields: [affiliateProductId], references: [id])
+  contentMaster      ContentMaster?   @relation(fields: [contentMasterId], references: [id])
+  briefs             ContentBrief[]
+  checklists         ComplianceChecklist[]
+  plans              PublicationPlan[]
+  metrics            MetricSnapshot[]
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+}
+
+model ContentMaster {
+  id                          String          @id @default(cuid())
+  title                       String
+  category                    String
+  mainProduct                 String
+  mainCompetitor              String
+  mainBrand                   String
+  competitorBrand             String
+  primaryKeyword              String
+  secondaryKeywords           String
+  intent                      String
+  funnelLevel                 String
+  editorialSummary            String
+  valueProposition            String
+  advantages                  String
+  disadvantages               String
+  whereToUse                  String
+  whereNotToUse               String
+  technicalAssessment         String
+  commonFailureParts          String
+  preventiveMaintenance       String
+  durabilityCare              String
+  finalDecision               String
+  mainCta                     String
+  affiliateLinksJson          String
+  youtubeLinks                String?
+  blogLinks                   String?
+  socialLinks                 String?
+  status                      String          @default("draft")
+  campaigns                   Campaign[]
+  blogDrafts                  BlogDraft[]
+  channelContents             ChannelContent[]
+  creativeAssets              CreativeAsset[]
+  createdAt                   DateTime        @default(now())
+  updatedAt                   DateTime        @updatedAt
+}
+
+model BlogDraft {
+  id                          String        @id @default(cuid())
+  contentMasterId             String
+  seoTitle                    String
+  metaDescription             String
+  slug                        String
+  h1                          String
+  introduction                String
+  h2h3Blocks                  String
+  technicalComparison         String
+  advantagesDisadvantages     String
+  usageGuide                  String
+  maintenanceGuide            String
+  wearParts                   String
+  finalConclusion             String
+  faq                         String
+  affiliateLinksBlock         String
+  youtubeBlock                String
+  socialLinksBlock            String
+  status                      String        @default("draft")
+  contentMaster               ContentMaster @relation(fields: [contentMasterId], references: [id])
+  createdAt                   DateTime      @default(now())
+  updatedAt                   DateTime      @updatedAt
+}
+
+model ChannelContent {
+  id                          String        @id @default(cuid())
+  contentMasterId             String
+  channelType                 String
+  objective                   String
+  format                      String
+  hook                        String
+  copy                        String
+  caption                     String
+  cta                         String
+  keywords                    String
+  hashtags                    String
+  visualPrompt                String
+  copyPrompt                  String
+  videoPrompt                 String
+  artSpec                     String
+  strategicNotes              String
+  productionStatus            String        @default("draft")
+  publicationStatus           String        @default("pending")
+  contentMaster               ContentMaster @relation(fields: [contentMasterId], references: [id])
+  creativeAssets              CreativeAsset[]
+  createdAt                   DateTime      @default(now())
+  updatedAt                   DateTime      @updatedAt
+}
+
+model CreativeAsset {
+  id                          String         @id @default(cuid())
+  contentMasterId             String
+  channelContentId            String?
+  title                       String
+  headline                    String
+  subheadline                 String
+  visualCta                   String
+  artText                     String
+  visualDirection             String
+  visualStyle                 String
+  ratioFormat                 String
+  coverReference              String?
+  imagePrompt                 String
+  variationPrompt             String
+  artStatus                   String         @default("draft")
+  finalApprovedVersion        String?
+  contentMaster               ContentMaster  @relation(fields: [contentMasterId], references: [id])
+  channelContent              ChannelContent? @relation(fields: [channelContentId], references: [id])
+  createdAt                   DateTime       @default(now())
+  updatedAt                   DateTime       @updatedAt
+}
+
+model PromptTemplate {
+  id         String         @id @default(cuid())
+  name       String
+  objective  String?
+  format     String?
+  body       String
+  version    String         @default("v1")
+  active     Boolean        @default(true)
+  channelId  String?
+  channel    Channel?       @relation(fields: [channelId], references: [id])
+  briefs     ContentBrief[]
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@unique([name, channelId])
+}
+
+model ContentBrief {
+  id               String               @id @default(cuid())
+  title            String
+  objective        String
+  targetPersona    String
+  status           String               @default("draft")
+  payloadJson      String
+  channelId        String
+  campaignId       String?
+  promptTemplateId String?
+  channel          Channel              @relation(fields: [channelId], references: [id])
+  campaign         Campaign?            @relation(fields: [campaignId], references: [id])
+  promptTemplate   PromptTemplate?      @relation(fields: [promptTemplateId], references: [id])
+  checklists       ComplianceChecklist[]
+  plans            PublicationPlan[]
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+}
+
+model ComplianceChecklist {
+  id          String           @id @default(cuid())
+  title       String
+  rulesJson   String
+  isApproved  Boolean          @default(false)
+  reviewedAt  DateTime?
+  channelId   String
+  campaignId  String?
+  contentBriefId String?
+  channel     Channel          @relation(fields: [channelId], references: [id])
+  campaign    Campaign?        @relation(fields: [campaignId], references: [id])
+  contentBrief ContentBrief?   @relation(fields: [contentBriefId], references: [id])
+  plans       PublicationPlan[]
+  createdAt   DateTime         @default(now())
+}
+
+model PublicationPlan {
+  id            String                @id @default(cuid())
+  title         String
+  scheduledFor  DateTime
+  format        String
+  status        String                @default("planned")
+  channelId     String
+  campaignId    String?
+  contentBriefId String?
+  checklistId   String?
+  channel       Channel               @relation(fields: [channelId], references: [id])
+  campaign      Campaign?             @relation(fields: [campaignId], references: [id])
+  contentBrief  ContentBrief?         @relation(fields: [contentBriefId], references: [id])
+  checklist     ComplianceChecklist?  @relation(fields: [checklistId], references: [id])
+  logs          PublicationLog[]
+  metrics       MetricSnapshot[]
+  createdAt     DateTime              @default(now())
+}
+
+model PublicationLog {
+  id               String          @id @default(cuid())
+  status           String          @default("pending")
+  url              String?
+  postedAt         DateTime?
+  outcome          String?
+  notes            String?
+  publicationPlanId String
+  channelId        String
+  publicationPlan  PublicationPlan @relation(fields: [publicationPlanId], references: [id])
+  channel          Channel         @relation(fields: [channelId], references: [id])
+  createdAt        DateTime        @default(now())
+}
+
+model MetricSnapshot {
+  id               String           @id @default(cuid())
+  metricType       String
+  metricValue      Float
+  snapshotAt       DateTime
+  channelId        String
+  campaignId       String?
+  publicationPlanId String?
+  channel          Channel          @relation(fields: [channelId], references: [id])
+  campaign         Campaign?        @relation(fields: [campaignId], references: [id])
+  publicationPlan  PublicationPlan? @relation(fields: [publicationPlanId], references: [id])
+  createdAt        DateTime         @default(now())
+}
+
+model MediaAsset {
+  id           String   @id @default(cuid())
+  name         String
+  type         String
+  path         String
+  source       String?
+  metadataJson String?
+  createdAt    DateTime @default(now())
+}
+
+model AutomationRun {
+  id         String   @id @default(cuid())
+  flowName   String
+  status     String
+  inputJson  String?
+  outputJson String?
+  startedAt  DateTime @default(now())
+  finishedAt DateTime?
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  entityType  String
+  entityId    String
+  action      String
+  actor       String   @default("local-admin")
+  actorUserId String?
+  actorUser   User?    @relation(fields: [actorUserId], references: [id])
+  summary     String?
+  payloadJson String?
+  diffJson    String?
+  createdAt   DateTime @default(now())
+
+  @@index([entityType])
+  @@index([action])
+  @@index([actor])
+  @@index([actorUserId])
+  @@index([createdAt])
+}

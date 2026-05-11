@@ -1,0 +1,65 @@
+[CHECKLIST PUBLICACAO ASSISTIDA - CONTEUDO AFILIADO]
+
+[IDENTIFICACAO]
+conteudo_id:
+campanha:
+responsavel:
+canal:
+formato:
+produto:
+
+[VALIDACAO EDITORIAL]
+[ ] tipo_conteudo definido
+[ ] intencao_busca definida
+[ ] funil definido
+[ ] faltantes registrados quando houver
+[ ] texto claro e escaneavel
+
+[VALIDACAO SEO]
+[ ] keyword principal definida
+[ ] keywords secundarias definidas
+[ ] titulo_seo valido
+[ ] meta_description valida
+[ ] headings h1/h2/h3 coerentes
+
+[VALIDACAO HUMANIZACAO]
+[ ] experiencia_real registrada
+[ ] opiniao_honesta registrada
+[ ] bastidor registrado
+[ ] exemplo_pratico registrado
+
+[VALIDACAO PRODUTO E CTA]
+[ ] produto e categoria conferidos
+[ ] comparativo coerente com o conteudo
+[ ] cta por canal definido
+[ ] cta final sem promessas exageradas
+
+[VALIDACAO TRACKING]
+[ ] utm_source preenchido
+[ ] utm_medium preenchido
+[ ] utm_campaign preenchido
+[ ] subid preenchido
+[ ] link por canal validado
+[ ] status_validacao_link = valido
+
+[VALIDACAO COMPLIANCE]
+[ ] claims verificaveis
+[ ] sem linguagem enganosa
+[ ] sem contradicao entre copy e produto
+[ ] prova social em formato sintetico
+
+[PUBLICACAO ASSISTIDA]
+[ ] fila de publicacao definida
+[ ] agendamento definido ou justificativa de pendencia
+[ ] wordpress/canal destino confirmado
+[ ] categorias e tags revisadas
+
+[STATUS FINAL]
+[ ] pronto_para_publicacao
+[ ] aprovado_com_pendencia_leve (somente pendencia nao bloqueante)
+[ ] bloqueado (falha critica)
+
+[BLOQUEIOS E PENDENCIAS]
+bloqueios:
+pendencias:
+observacoes_finais:

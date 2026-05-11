@@ -1,0 +1,75 @@
+{
+  "catalogo_produtos_afiliados": [
+    {
+      "categoria": "furadeiras_e_parafusadeiras",
+      "produto": "furadeira_de_impacto_750w",
+      "intencao_busca": "comparativo",
+      "foco_review": "durabilidade e controle",
+      "foco_comparacao": "potencia_vs_ergonomia",
+      "cta_padrao": "ver_review_completo",
+      "canais_prioritarios": [
+        "blog",
+        "youtube",
+        "instagram_reels"
+      ],
+      "link_rastreado_base": ""
+    },
+    {
+      "categoria": "serras",
+      "produto": "serra_circular_7_1_4",
+      "intencao_busca": "review_tecnico",
+      "foco_review": "precisao e seguranca",
+      "foco_comparacao": "acabamento_vs_preco",
+      "cta_padrao": "comparar_modelos",
+      "canais_prioritarios": [
+        "blog",
+        "tiktok",
+        "facebook_feed"
+      ],
+      "link_rastreado_base": ""
+    },
+    {
+      "categoria": "jardinagem",
+      "produto": "rocadeira_gasolina_43cc",
+      "intencao_busca": "lista_melhores",
+      "foco_review": "alcance e manutencao",
+      "foco_comparacao": "consumo_vs_desempenho",
+      "cta_padrao": "ver_ofertas_do_dia",
+      "canais_prioritarios": [
+        "youtube",
+        "instagram_feed",
+        "whatsapp"
+      ],
+      "link_rastreado_base": ""
+    },
+    {
+      "categoria": "limpeza",
+      "produto": "lavadora_alta_pressao_1800w",
+      "intencao_busca": "faq_objecoes",
+      "foco_review": "pressao real e uso residencial",
+      "foco_comparacao": "vazao_vs_facilidade_de_uso",
+      "cta_padrao": "ver_guia_de_compra",
+      "canais_prioritarios": [
+        "blog",
+        "instagram_stories",
+        "telegram"
+      ],
+      "link_rastreado_base": ""
+    }
+  ],
+  "regras_editoriais": {
+    "obrigatorio": [
+      "review",
+      "comparacao",
+      "cta",
+      "tracking"
+    ],
+    "proibido": [
+      "retirada",
+      "devolucao",
+      "diaria",
+      "estoque_operacional",
+      "logistica_de_locacao"
+    ]
+  }
+}

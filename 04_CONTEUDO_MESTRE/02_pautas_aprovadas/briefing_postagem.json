@@ -1,0 +1,109 @@
+{
+  "briefing_postagem": {
+    "identificacao": {
+      "data_solicitacao": "",
+      "responsavel_solicitacao": "",
+      "nome_interno_campanha": "",
+      "prioridade": "normal",
+      "status": "rascunho"
+    },
+    "conteudo_base": {
+      "tipo_conteudo": "",
+      "opcoes_validas": [
+        "review_tecnico",
+        "comparativo",
+        "lista",
+        "guia_pratico",
+        "faq_objecoes"
+      ],
+      "tema": "",
+      "nicho": "",
+      "subtipo": "",
+      "intencao_busca": "",
+      "funil": "",
+      "suficiencia_material": "",
+      "faltantes": []
+    },
+    "produto_afiliado": {
+      "categoria": "",
+      "produto": "",
+      "marca": "",
+      "modelo": "",
+      "uso_principal": "",
+      "diferencial": "",
+      "comparativos_sugeridos": []
+    },
+    "seo": {
+      "palavra_chave_principal": "",
+      "palavras_chave_secundarias": [],
+      "titulo_seo": "",
+      "meta_description": "",
+      "headings": {
+        "h1": "",
+        "h2": [],
+        "h3": []
+      },
+      "faq": []
+    },
+    "humanizacao": {
+      "experiencia_real": [],
+      "opiniao_honesta": [],
+      "bastidor": [],
+      "exemplo_pratico": []
+    },
+    "canais": {
+      "canal_principal": "",
+      "canais_secundarios": [],
+      "opcoes_validas": [
+        "Instagram Feed",
+        "Instagram Story",
+        "Instagram Reels",
+        "Facebook Feed",
+        "YouTube",
+        "TikTok",
+        "Kwai",
+        "WhatsApp",
+        "Telegram",
+        "Blog/Site",
+        "Mercado Livre",
+        "Shopee"
+      ]
+    },
+    "cta_conversao": {
+      "cta_principal": "",
+      "cta_secundario": "",
+      "acao_final_obrigatoria": "",
+      "link_destino_principal": "",
+      "observacao_compliance": ""
+    },
+    "tracking": {
+      "utm_source": "",
+      "utm_medium": "",
+      "utm_campaign": "",
+      "subid": "",
+      "canal": "",
+      "criativo": "",
+      "status_validacao_link": "pendente_validacao"
+    },
+    "prova_social": {
+      "comentarios_referencia": [],
+      "objecoes_recorrentes": [],
+      "elogios_recorrentes": [],
+      "perguntas_frequentes": []
+    },
+    "reputacao_publica": {
+      "fonte_publica": "",
+      "resumo_reclamacoes": "",
+      "risco_marca": "",
+      "sinal_resolucao": ""
+    },
+    "publicacao": {
+      "formato_entrega": "",
+      "quantidade_pecas": 1,
+      "fila_publicacao": "",
+      "agendamento": "",
+      "status_aprovacao": "",
+      "observacoes_finais": ""
+    }
+  }
+}
