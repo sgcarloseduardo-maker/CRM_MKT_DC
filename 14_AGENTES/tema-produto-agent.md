@@ -18,6 +18,8 @@ O agente recebe o input do usuário (texto, imagem ou documento), define o tema 
 - `web-search` — busca de produtos, informações e contexto de mercado
 - `content-strategy` — definição estratégica do tema e ângulo de conteúdo
 - `marketing-ideas` — geração de variações e ângulos do tema
+- `apify-ultimate-scraper` — busca os vídeos mais assistidos no YouTube sobre o tema para validar demanda real; verifica tendências no Google Trends; confirma quais produtos aparecem mais nas buscas orgânicas
+- `firecrawl-scrape` — acessa páginas de categoria do Mercado Livre, Shopee e Amazon para identificar os produtos mais vendidos e bem avaliados do tema escolhido
 
 ---
 
@@ -77,9 +79,10 @@ Usuário envia input (texto/imagem/doc)
             ↓
 [tema-produto-agent ativado]
             ↓
-Tema proposto → usuário confirma
+Scraping: YouTube + Google Trends (apify-ultimate-scraper)
+Scraping: produtos mais vendidos no ML/Shopee/Amazon (firecrawl-scrape)
             ↓
-Busca automática de produtos relacionados
+Tema proposto → usuário confirma
             ↓
 Lista de produtos exibida (editável)
             ↓

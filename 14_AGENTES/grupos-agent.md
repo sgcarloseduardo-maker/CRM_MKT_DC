@@ -18,6 +18,7 @@ Adaptar o conteúdo do artigo e dos produtos para o formato de mensagens de grup
 - `integrate-whatsapp` — integração com WhatsApp
 - `copywriting` — mensagem persuasiva e natural
 - `marketing-psychology` — gatilhos de urgência, curiosidade e prova social
+- `firecrawl-scrape` — busca o preço atualizado do produto no momento em que a mensagem é gerada (Mercado Livre, Shopee, Amazon); permite incluir preço real e promos ativas na mensagem, aumentando a credibilidade e a urgência do CTA
 
 ---
 
@@ -99,6 +100,7 @@ CTA: [ex: "Me chama pra saber mais! 💬"]
 - Mensagens do WhatsApp: sem formatação markdown (negrito só com *asterisco*)
 - Mensagens do Telegram: markdown é aceito (**negrito**, _itálico_, `código`)
 - Gerar pelo menos 2 variações (curta e longa) para o usuário escolher
+- Preço incluído na mensagem DEVE ser o preço real coletado via scraping — nunca inventar
 
 ---
 
@@ -108,6 +110,8 @@ CTA: [ex: "Me chama pra saber mais! 💬"]
 Artigo aprovado + Links confirmados
           ↓
 [grupos-agent ativado]
+          ↓
+Scraping: preço atual do produto no ML/Shopee/Amazon (firecrawl-scrape)
           ↓
 Mensagem curta gerada (WhatsApp)
 Mensagem longa gerada (WhatsApp)

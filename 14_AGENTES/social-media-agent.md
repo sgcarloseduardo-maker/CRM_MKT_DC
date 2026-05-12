@@ -19,6 +19,7 @@ Pegar o artigo criado pelo `seo-editor` e transformar em conteúdo pronto e otim
 - `instagram-content-generation` — geração específica para Instagram
 - `tiktok-marketing` — conteúdo otimizado para TikTok
 - `marketing-psychology` — gatilhos mentais e persuasão
+- `apify-ultimate-scraper` — coleta as hashtags mais usadas e com melhor desempenho no Instagram e TikTok para o nicho de ferramentas; analisa comentários de posts concorrentes para identificar o que o público pergunta e quer saber; monitora trends do TikTok para aproveitar formatos em alta
 
 ---
 
@@ -100,7 +101,7 @@ CTA: [ex: Compre com segurança pelo Mercado Livre]
 - SEMPRE adaptar o tom conforme a tabela acima
 - NUNCA ultrapassar o limite de caracteres de cada plataforma
 - Priorizar o produto com melhor custo-benefício no CTA
-- Hashtags: pesquisar as mais relevantes para ferramentas no Brasil
+- Hashtags: sempre usar as coletadas via scraping — não inventar
 
 ---
 
@@ -123,6 +124,9 @@ CTA: [ex: Compre com segurança pelo Mercado Livre]
 Artigo aprovado (seo-editor)
           ↓
 [social-media-agent ativado]
+          ↓
+Scraping: hashtags e trends por plataforma (apify-ultimate-scraper)
+Scraping: comentários de posts concorrentes (apify-ultimate-scraper)
           ↓
 Gera legenda + tipo de conteúdo para cada plataforma
           ↓

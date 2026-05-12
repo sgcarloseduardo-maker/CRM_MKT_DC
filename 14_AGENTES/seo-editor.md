@@ -22,11 +22,14 @@ O artigo é o ponto de partida de todo o conteúdo do CRM — tudo parte dele.
 - `writing-skills` — qualidade e clareza do texto
 - `marketing-psychology` — uso de gatilhos mentais e persuasão
 - `web-search` — busca de informações reais sobre o produto
+- `apify-ultimate-scraper` — coleta comentários reais de vídeos do YouTube, TikTok e posts do Instagram/Facebook sobre o produto; busca opiniões no Reddit; essencial para preencher as seções de "Experiências reais" e "Avaliações de redes sociais" do artigo
+- `firecrawl-scrape` — extrai ficha técnica completa, preços e descrições de produtos diretamente dos sites do fabricante, Mercado Livre, Shopee e Amazon; também busca avaliação no Reclame Aqui
+- `scrapling-official` — usado como fallback quando o `firecrawl-scrape` falha por proteção anti-bot (ex: alguns sites de fabricantes e lojas com Cloudflare)
 
 ---
 
 ## Entradas esperadas
-- **Tema confirmado** (ex: "Tudo sobre o [produto], [marca], [modelo]"; ex2: "Review completo do [produto], [marca], [modelo]"; ex3: "Comparativo entre [produto], [marca], [modelo]"; ex4: "Qual o melhor [produto], [marca], [modelo]")
+- **Tema confirmado** (ex: "Furadeira de Impacto Bosch 650W")
 - **Lista de produtos confirmados** (Produto 1, Produto 2...)
 - **Links de afiliados confirmados** (quando disponíveis)
 
@@ -47,13 +50,13 @@ O artigo é o ponto de partida de todo o conteúdo do CRM — tudo parte dele.
 | Ficha técnica completa | Voltagem, potência, peso, dimensões, RPM, etc |
 | Produtos concorrentes | Tabela comparativa com prós e contras |
 | Custo-benefício | Análise honesta de preço x qualidade |
-| Experiências reais | Comentários reais de usuários (quando houver) |
+| Experiências reais | Comentários reais de usuários (scraping YouTube/TikTok/Reddit) |
 | Acessórios inclusos | O que vem na caixa |
 | Acessórios úteis disponíveis | O que pode comprar junto |
 | Dicas de manutenção | Como cuidar para durar mais |
 | Peças de reposição comuns | Quais costumam precisar de troca |
-| Avaliação Reclame Aqui | Reputação da marca/produto |
-| Avaliações de redes sociais e vídeos | Opinião real de quem usou |
+| Avaliação Reclame Aqui | Reputação da marca/produto (scraping Reclame Aqui) |
+| Avaliações de redes sociais e vídeos | Opinião real de quem usou (scraping YouTube/Instagram/TikTok) |
 | Veredicto Final | Carimbo de autoridade: vale a pena? Para quem? |
 | Call to Action | Botão/link de afiliado integrado com contexto |
 
@@ -90,6 +93,7 @@ Após gerar o artigo, o agente DEVE entregar um bloco separado com:
 - Densidade de palavra-chave principal: entre 1,5% e 2,5%
 - Tamanho mínimo do artigo: 1.500 palavras
 - Tamanho ideal: entre 2.000 e 3.500 palavras
+- Dados coletados via scraping DEVEM ser citados como "segundo usuários reais" ou "de acordo com comentários" — nunca como fatos absolutos
 
 ---
 
@@ -103,6 +107,9 @@ Produtos confirmados
 Links de afiliados confirmados
       ↓
 [seo-editor ativado]
+      ↓
+Scraping: ficha técnica + Reclame Aqui (firecrawl-scrape)
+Scraping: comentários YouTube/TikTok/Reddit (apify-ultimate-scraper)
       ↓
 Artigo gerado (estrutura completa)
       ↓

@@ -19,6 +19,8 @@ Gerar prompts otimizados e imagens prontas para cada tipo de conteúdo visual ne
 - `image-edit` — edição e adaptação de imagens por formato
 - `youtube-thumbnail-design` — criação de thumbnails otimizadas para YouTube
 - `frontend-design` — princípios de design aplicados às artes
+- `apify-ultimate-scraper` — coleta thumbnails de vídeos concorrentes no YouTube para usar como referência visual de estilo, cores e texto; ajuda a criar thumbnails que se destacam em relação à concorrência
+- `firecrawl-scrape` — extrai fotos oficiais do produto diretamente do site do fabricante ou das páginas de venda (Mercado Livre, Shopee) para usar como base das artes quando não há imagem fornecida pelo usuário
 
 ---
 
@@ -106,6 +108,7 @@ Estilo: [Cinematográfico / UGC / Demonstração de produto]
 - NUNCA usar fontes manuscritas ou de difícil leitura
 - Prompts em inglês (melhor resultado nas IAs de imagem)
 - Descrever a cena com: produto + ambiente + iluminação + estilo + mood
+- Usar thumbnails de concorrentes (scraping) apenas como REFERÊNCIA — nunca copiar
 
 ---
 
@@ -115,6 +118,9 @@ Estilo: [Cinematográfico / UGC / Demonstração de produto]
 Legenda aprovada + tipo de conteúdo (social-media-agent)
                     ↓
       [visual-agent ativado]
+                    ↓
+Scraping: thumbnails de concorrentes no YouTube (apify-ultimate-scraper)
+Scraping: fotos do produto nos sites de venda (firecrawl-scrape)
                     ↓
      Gera prompts por plataforma
                     ↓

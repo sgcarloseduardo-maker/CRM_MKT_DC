@@ -19,6 +19,7 @@ Criar roteiros completos para vídeos e todos os metadados necessários para pub
 - `writing-skills` — qualidade e clareza do roteiro
 - `copywriting` — gancho inicial e CTA final
 - `marketing-psychology` — retenção do espectador e persuasão
+- `apify-ultimate-scraper` — coleta comentários e dúvidas reais de vídeos concorrentes no YouTube para usar no roteiro (responder perguntas que o público já faz); identifica títulos e tags mais usados no nicho para otimizar SEO do vídeo
 
 ---
 
@@ -103,6 +104,7 @@ CATEGORIA SUGERIDA: [ex: Ciência e Tecnologia / Produtos]
 - NUNCA fazer roteiro genérico — sempre baseado no produto real
 - Linguagem: acessível, como se estivesse conversando com um amigo
 - Evitar apresentações longas — o espectador quer o conteúdo rápido
+- Dúvidas reais coletadas via scraping DEVEM ser respondidas no roteiro de forma natural
 
 ---
 
@@ -112,6 +114,8 @@ CATEGORIA SUGERIDA: [ex: Ciência e Tecnologia / Produtos]
 Artigo aprovado + Duração escolhida
             ↓
 [youtube-agent ativado]
+            ↓
+Scraping: comentários e dúvidas de vídeos concorrentes (apify-ultimate-scraper)
             ↓
   Roteiro gerado por blocos
             ↓
