@@ -4,20 +4,35 @@ NOME OFICIAL DE REFERENCIA
 - Escopo base
 
 OBJETIVO GERAL
-Criar um CRM inteligente de produção e distribuição de conteúdo de vendas de produtos com link de afiliados para multiplaformas digitais.  
+Criar um Aplicativo/CRM/APPWEB inteligente de produção e distribuição de conteúdo de vendas de produtos com link de afiliados para multiplataformas digitais.  
 
 LINGUAGEM DE PROGRAMAÇÃO
-Utilizar a linguagem de programação do arquivo principal em java, pyhton quando chamado para ações necessárias em botões, e todas bibliotecas necessárias. 
+Utilizar Next.js com TypeScript como linguagem principal do CRM. Ou fazer recomendações e perguntas pertinentes.
+Python deverá ser utilizado quando chamado para ações de automação,
+geração de imagem, geração de vídeo e geração de prompts com IA.
+Todas as bibliotecas necessárias deverão ser instaladas conforme demanda. 
 
-CAMINHO
-C:\Users\sgcar\OneDrive\Documentos\GitHub\CRM_MKT_DC\13_APP
 
 VISAO CENTRAL DO PROJETO
-O CRM_MKT_DC nao sera um CRM tradicional de clientes.
-Ele sera uma central inteligente de producao de conteudo com o objetivo de vender produtos por meio de Link de afiliados utilizando a marca Decisão Certa Ferramentas, com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
+O aplicativo não será um CRM tradicional de clientes.
+Ele será uma central inteligente de produção de conteúdo com o objetivo final de vender produtos por meio de Link de afiliados utilizando a marca "Decisão Certa Ferramentas", com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
 
 PRINCIPIO CENTRAL DO SISTEMA
-O CRM sera o cerebro criativo, operacional e analista de resultados, com o objetivo de melhorar performance de vendas baseados em resultados.
+O CRM será o cérebro criativo, operacional e analista de resultados, com o objetivo de melhorar performance de vendas baseados em resultados.
+
+Tudo se inicia na criação do conteúdo base, que será utilizado para a criação do post do blog. Ele será o ponto de partida para todo o restante do processo. 
+
+PROPOSTA DA MARCA E TEORIA POR TRAS DA CRIAÇÂO DE CONTEUDO NAS MULTIPLATAFORMAS.
+Decisão Certa Ferramentas é uma marca criada para divulgação de produtos para venda através de link de afiliados. A proposta da marca é que ajudar o lead a tomar a decisão certa para comprar a ferramenta ou equipamento que ela está procurando na internet. 
+
+Conteúdo principal e base será o artigo para o blog. Nele deverá conter vários artigos referentes a várias ferramentas elétricas, equipamentos ou acessórios. Deverá ter todas as informações necessárias para ajudar na tomada de decisão, tais como: descrição da ferramentas, uso ideal segundo o fabricante, indicação de uso prático do dia-a-dia, para quem é melhor, profissional, amador ou hobbie, ficha técnica completa, principais produtos concorrentes, custo-benefício, experiencias reais quando houver, acessórios inclusos e acessórios existentes que podem ser úteis, dicas de manutenções, peças de reposição mais comuns, Avaliações no reclame aqui, Avaliações reais de acordo com comentários em redes sociais ou vídeos sobre o assunto, resultado da avaliação com carimbo e autoridade. Outros artigos tais como: comparativos, reviews, esse VS aquele, Barato! Mas é bom?, temas nichados, entre outros. Sempre com esse formato de destrinchar tudo sobre o equipamento em questão. 
+
+A partir do artigo e dos produtos selecionados, criar o conteúdo para youtube e todas as redes sociais, seguindo critérios especificados e otimizados para cada plataforma.
+
+Colocar e divulgar os links sempre nos lugares corretos e previamente estudados e ao longo do tempo auditados, para sempre melhorar o resultado.
+
+Ou seja, a ideia principal é fazer o trabalho duro para o lead, e que em um único lugar (ou com o Decisão Certa) ele com certeza estará tomando a decisão certa na compra de seu produto. 
+
 
 IDIOMA E PADRAO
 - Todo o CRM devera operar em português do Brasil.
@@ -28,7 +43,7 @@ REGRA DE REFERENCIA OFICIAL
 - Este documento passa a ser o escopo base oficial do projeto.
 - Sempre que o termo “escopo base” for usado, esta versão devera ser considerada a referencia principal.
 
-MENU LATERAL PRINCIPAL (ORDEM OFICIAL)
+MENU LATERAL PRINCIPAL (ORDEM e ITENS RECOMENDADOS - RECOMENDAÇÕES SÃO BEM-VINDAS PORÉM DEVERÃO PEDIR AUTORIZAÇÃO PARA VALIDAÇÃO)
 1. Criação de Tema e Produtos
 2. Link dos Produtos
 3. Gerador de Artigo BLOG
@@ -99,7 +114,7 @@ OPERAÇÃO DO SISTEMA DETALHADO "Gerador de Conteúdo Redes Sociais":
 
 1. Blog/Site:
 
-Vazio
+Vazio (em estudo)
 
 2. Youtube:
 
@@ -125,14 +140,14 @@ Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de te
 
 Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de texto, editável, pré-preenchida com a legenda da postagem, de acordo com o artigo criado e otimizado para postagem de TikTok. Lado direito deverá conter as informações da criação da arte: Uma caixa checkbox para selecionar "Tipo" com as opções. Vídeo curto vertical, Foto/Slideshow, Stories. No centro, O botão "Criar Conteúdo". Ao clicar em criar contéudo, deverá aparecer a criação conforme itens selecionados, em miniaturas, que podem ser expandidas para melhor visualização. Um botão de refazer e o botão de baixar imagem/vídeo abaixo de cada uma. Um botão de refazer todas e um botão de Baixar todas, para baixar ou refazer todo o conteúdo.
 
-6. Gerador de Conteúdo para Grupos e Status (VAZIO)
-7. Gerador de Prompt (VAZIO)
-8. Histórico de Aprovações (VAZIO)
-9. Resultados (VAZIO)
-10. Dashboard (VAZIO)
+6. Gerador de Conteúdo para Grupos e Status (VAZIO)(em estudo)
+7. Gerador de Prompt (VAZIO)(em estudo)
+8. Histórico de Aprovações (VAZIO)(em estudo)
+9. Resultados (VAZIO)(em estudo)
+10. Dashboard (VAZIO)(em estudo)
 
 
-AGENTES PRINCIPAIS e SKILLS
+AGENTES PRINCIPAIS e SKILLS (RECOMENDAÇÕES SÃO BEM-VINDAS PORÉM DEVERÃO PEDIR AUTORIZAÇÃO PARA VALIDAÇÃO)
 
 1. "Programador"
 programador.md
@@ -192,9 +207,7 @@ Skills que "Analista de Dados" deverá usar:
 
 
 REGRAS GERAIS DE EXECUCAO
-
-1 - ANTES DE REALIZAR QUALQUER AÇÃO, O OPENCODE, DEVERÁ LER programador.md EM C:\Users\sgcar\OneDrive\Documentos\GitHub\CRM_MKT_DC\14_AGENTES, seguir e respeitar estritamente.
-
+1. Não alterar este escopo.
 2. Não inventar outro escopo.
 3. Não preservar nomenclatura genérica em conflito.
 4. Não mudar arquitetura sem necessidade extrema.
@@ -204,4 +217,4 @@ REGRAS GERAIS DE EXECUCAO
 8. O sistema deve comunicar clareza operacional imediata.
 
 MISSAO
-Fazer o CRM_DC ser a principal central inteligente de producao de conteudo com o objetivo de vender produtos por meio de Link de afiliados utilizando a marca Decisão Certa Ferramentas, com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
+Fazer o CRM_DC ser a principal central inteligente de produção de conteúdo com o objetivo de vender produtos por meio de Link de afiliados utilizando a marca Decisão Certa Ferramentas, com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
