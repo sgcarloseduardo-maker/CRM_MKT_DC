@@ -149,62 +149,101 @@ Tela dividida em 2 partes lado a lado: Lado esquerdo, deverá conter caixa de te
 
 AGENTES PRINCIPAIS e SKILLS (RECOMENDAÇÕES SÃO BEM-VINDAS PORÉM DEVERÃO PEDIR AUTORIZAÇÃO PARA VALIDAÇÃO)
 
-1. "Programador"
-programador.md
-Skills que "programador" deverá usar:
-1. brainstorming
-2. web-design-guidelines
-3. frontend-design
-4. webapp-testing
-5. find-skills
-6. skill-creator
+1. PROGRAMADOR
+Arquivo: programador.md
+Skills:
+- requisitos-programador.md
+- web-design-guidelines
+- frontend-design
+- webapp-testing
+- systematic-debugging
+- vercel-react-best-practices
+- supabase-postgres-best-practices
+- ui-ux-pro-max
 
-2. "Diretor Criativo"
-diretor-criativo.md
-Skills que "Diretor Criativo" deverá usar:
-1. copywriting
-2. web-design-guidelines
-3. frontend-design
-4. content-strategy
-5. social-content
-6. ai-seo
+2. DIRETOR CRIATIVO
+Arquivo: diretor-criativo.md
+Skills:
+- copywriting
+- web-design-guidelines
+- content-strategy
+- social-content
+- ai-seo
+- marketing-psychology
+- marketing-ideas
+- instagram-content-generation
+- writing-skills
 
-3. "Diretor Arte (Imagem)"
-diretor-de-arte-imagem.md
-Skills que "Diretor Arte (Imagem)" deverá usar:
-1. ai-image-generation
-2. nano-banana-2
-3. frontend-design
-4. web-design-guidelines
-5. brainstorming
+3. DIRETOR DE ARTE (IMAGEM)
+Arquivo: diretor-de-arte-imagem.md
+Skills:
+- ai-image-generation
+- gpt-image-2
+- image-edit
+- youtube-thumbnail-design
+- web-design-guidelines
+- content-strategy
+- nano-banana-2
 
-4. "Diretor de Arte (Video)"
-diretor-de-arte-video.md
-Skills que "Diretor Arte (Video)" deverá usar:
-1. ai-video-generation
-2. video
-3. social-content
-4. copywriting
-5. content-strategy
+4. DIRETOR DE ARTE (VIDEO)
+Arquivo: diretor-de-arte-video.md
+Skills:
+- ai-video-generation
+- video
+- image-to-video
+- video-edit
+- videoagent-video-studio
+- social-content
+- copywriting
+- content-strategy
+- tiktok-marketing
+- youtube-automation
 
-5. "Revisor de Erros"
-revisor-de-erros.md
-Skills que "Revisor de Erros" deverá usar:
-1. webapp-testing
-2. seo-audit
-3. ai-seo
-4. copywriting
-5. find-skills
+5. REVISOR DE ERROS
+Arquivo: revisor-de-erros.md
+Skills:
+- webapp-testing
+- seo-audit
+- ai-seo
+- copywriting
+- systematic-debugging
+- diagnose
+- writing-skills
 
-6. "Analista de Dados"
-analista-de-dados.md
-Skills que "Analista de Dados" deverá usar:
-1. seo-audit
-2. content-strategy
-3. ai-seo
-4. social-content
-5. find-skills
+6. ANALISTA DE DADOS
+Arquivo: analista-de-dados.md
+Skills:
+- seo-audit
+- content-strategy
+- ai-seo
+- web-search
+- apify-ultimate-scraper
+- firecrawl-scrape
+- marketing-ideas
 
+7. ORQUESTRADOR
+Arquivo: orquestrador.md
+Skills:
+- subagent-driven-development
+- systematic-debugging
+- zoom-out
+
+8. PESQUISADOR
+Arquivo: pesquisador.md
+Skills:
+- web-search
+- web-scraping
+- apify-ultimate-scraper
+- firecrawl-scrape
+- scrapling-official
+
+9. GESTOR DE LINKS
+Arquivo: gestor-de-links.md
+Skills:
+- web-search
+- apify-ultimate-scraper
+- firecrawl-scrape
+- web-scraping
 
 REGRAS GERAIS DE EXECUCAO
 1. Não alterar este escopo.
