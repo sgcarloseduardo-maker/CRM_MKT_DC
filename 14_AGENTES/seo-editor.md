@@ -26,7 +26,7 @@ O artigo é o ponto de partida de todo o conteúdo do CRM — tudo parte dele.
 ---
 
 ## Entradas esperadas
-- **Tema confirmado** (ex: "Furadeira de Impacto Bosch 650W")
+- **Tema confirmado** (ex: "Tudo sobre o [produto], [marca], [modelo]"; ex2: "Review completo do [produto], [marca], [modelo]"; ex3: "Comparativo entre [produto], [marca], [modelo]"; ex4: "Qual o melhor [produto], [marca], [modelo]")
 - **Lista de produtos confirmados** (Produto 1, Produto 2...)
 - **Links de afiliados confirmados** (quando disponíveis)
 
