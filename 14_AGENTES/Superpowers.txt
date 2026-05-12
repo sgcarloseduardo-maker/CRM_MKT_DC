@@ -1,0 +1,20 @@
+Boa! Aqui vai um guia prático de “como me pedir tarefas” para tirar o máximo proveito:
+- Seja direto no objetivo: Corrija o bug de login ou Adicione filtro por data na tela de pedidos.
+- Dê contexto mínimo útil: onde acontece, erro esperado vs. atual, e stack (React + Node, por exemplo).
+- Inclua critério de sucesso: Considere pronto quando passar nos testes X e Y.
+- Defina escopo: Só mexa em frontend ou Não altere contrato da API.
+- Informe preferência de entrega: Quero patch pequeno ou Pode refatorar se melhorar legibilidade.
+- Peça validação explícita: Rode testes, rode build, me mostre impacto.
+Exemplos prontos para copiar:
+Investigue por que o checkout falha ao aplicar cupom.
+Contexto: erro 500 no endpoint /apply-coupon.
+Objetivo: corrigir sem mudar payload da API.
+Pronto quando: testes de checkout passarem e fluxo manual funcionar.
+Adicione paginação na listagem de clientes.
+Stack: Next.js + Prisma.
+Escopo: backend + frontend dessa tela apenas.
+Pronto quando: paginação por query params (?page=, ?size=) e testes atualizados.
+Refatore este módulo para ficar mais legível sem alterar comportamento:
+src/services/billing.ts
+Pronto quando: mesmos testes passando + diff explicado por arquivo.
+Se quiser, já me manda sua primeira tarefa nesse formato que eu começo agora.

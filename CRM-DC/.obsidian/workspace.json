@@ -11,10 +11,13 @@
             "id": "0424439c19d8a462",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "bases",
+              "state": {
+                "file": "Sem título.base",
+                "viewName": "Tabela"
+              },
+              "icon": "lucide-table",
+              "title": "Sem título"
             }
           }
         ]
@@ -157,6 +160,18 @@
               "icon": "lucide-list",
               "title": "Sumário"
             }
+          },
+          {
+            "id": "4f87c851a5fc3e61",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Sem título.base"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Notas de rodapé"
+            }
           }
         ]
       }
@@ -177,13 +192,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "565b37838d8935a9",
+  "active": "0424439c19d8a462",
   "lastOpenFiles": [
+    "Sem título.base",
     "skills-lock.json",
     "Sem título.canvas",
     "Sem título",
     "Sem título 1.base",
-    "Sem título.base",
     "Sem título.md",
     "Bem-vindo.md"
   ]
