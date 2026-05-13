@@ -4,7 +4,7 @@ NOME OFICIAL DE REFERENCIA
 - Escopo base
 
 OBJETIVO GERAL
-Criar um Aplicativo/CRM/APPWEB inteligente de produção e distribuição de conteúdo de vendas de produtos com link de afiliados para multiplataformas digitais.  
+Criar um Aplicativo/CRM/APPWEB inteligente de produção, criação de conteúdo e distribuição de conteúdo com a finalidade de vendas de produtos com link de afiliados para multiplataformas digitais.  
 
 LINGUAGEM DE PROGRAMAÇÃO
 Utilizar Next.js com TypeScript como linguagem principal do CRM. Ou fazer recomendações e perguntas pertinentes.
@@ -12,13 +12,29 @@ Python deverá ser utilizado quando chamado para ações de automação,
 geração de imagem, geração de vídeo e geração de prompts com IA.
 Todas as bibliotecas necessárias deverão ser instaladas conforme demanda. 
 
+SOBRE A MARCA DECISÃO CERTA FERRAMENTAS
+Foi criada com a finalidade de vender produtos com link de afiliados para multiplataformas digitais. Uma única finalidade, vários meios de distribuição, a ideia é de que quanto mais pessoas vejam, mais pessoas cliquem no link e decidam por comprar. O foco será em produtos como: ferramentas elétricas, equipamentos para construção civil, limpeza, jardinagem, DIY, novidades, equipamentos consolidados, variedade de preços e opções. Sugestão de equipamentos/ferramentas relacionados, acessórios inclusos, acessórios úteis e peças de manutenção.
+A Meta é tornar referência neste nicho no Brasil, em 1 ano. Quando uma pessoa procurar por produtos deste nicho, em qualquer plataforma, deverá encontrar meu conteúdo. 
+A criação de conteúdo será muito automatizada, deverá ser usado as melhores práticas do uso de IA, Automações, Ferramentas disponíveis. A marca não terá um rosto humano único, será feito tudo com criações de IA, com ou sem rosto humano produzido, porém o criador não irá aparecer na marca, nos vídeos nem nas postagens. Portanto a importância da geração e entrega do conteúdo deverá ser ainda maior, havendo revisão, inserções ou intervenções manuais quando necessário, finalizando com a decisão humana a cada decisão do processo. 
+
+CORES DA MARCA
+Sempre que necessitar qualquer informação sobre cores, imagens, referencias, tipografia, consultar o arquivo guia-marca.md
+
+REFERÊNCIAS
+Já existem referências atuantes no Brasil neste Nicho de mercado, fazendo conteúdo muito parecido. Também há referências em várias plataforma que fazem o mesmo processo, porém em nichos diferentes. Abaixo vou deixar alguns links, que são dessas referências. Elas devem ser aproveitadas para estudo de conteúdo, análise de métricas, resultados, sugestões de pauta. Nunca para cópia direta, elas devem ser tratadas como "referência que queremos igualar ou ultrapassar em 1 ano". 
+1. 
+2.
+3.
+4.
+5.
+
 
 VISAO CENTRAL DO PROJETO
 O aplicativo não será um CRM tradicional de clientes.
 Ele será uma central inteligente de produção de conteúdo com o objetivo final de vender produtos por meio de Link de afiliados utilizando a marca "Decisão Certa Ferramentas", com foco em blog/site para criação de artigos, criação de conteúdo para diversas redes sociais, criação de conteúdo e links para grupos de vendas, e dashboard para analise de performance de conversão de vendas.
 
 PRINCIPIO CENTRAL DO SISTEMA
-O CRM será o cérebro criativo, operacional e analista de resultados, com o objetivo de melhorar performance de vendas baseados em resultados.
+O CRM será o cérebro criativo, operacional e analista de resultados, com o objetivo de melhorar performance de vendas baseados em resultados. Importante, apenas um usuário usará este sistema, e será usado localmente. Portanto, não há necessidade de login e senha para acesso.
 
 Tudo se inicia na criação do conteúdo base, que será utilizado para a criação do post do blog. Ele será o ponto de partida para todo o restante do processo. 
 
@@ -37,7 +53,7 @@ Ou seja, a ideia principal é fazer o trabalho duro para o lead, e que em um ún
 IDIOMA E PADRAO
 - Todo o CRM devera operar em português do Brasil.
 - A linguagem da interface, labels, descrições, status e geração interna será PT-BR.
-- O sistema devera ser objetivo e operacional.
+- O sistema devera ser objetivo e operacional focado no resultado.
 
 REGRA DE REFERENCIA OFICIAL
 - Este documento passa a ser o escopo base oficial do projeto.
@@ -86,7 +102,8 @@ ORDEM DAS ABAS INTERNAS "Gerador de Prompt"
 
 OPERAÇÃO DO SISTEMA DETALHADO "Criação de Tema e Produtos":
 1. Criação de Tema 
-Deverá ter uma caixa de texto para conversação com IA, logo abaixo à esquerda botão para subir imagem e/ou documentos, e o botão de "Enviar" para enviar o texto. Ia deverá estar integrada com o CRM. Logo Abaixo uma outra caixa de texto retangular, mais cumprida do que alta, editável, Com o título "Tema Selecionado" e um botão de confirmar. 
+Deverá ter uma caixa de texto para conversação com IA, logo abaixo à esquerda botão para subir imagem e/ou documentos/pdf (caso em envie em forma de documentos ou imagem uma sugestão), um botão de "Sugestão de Tema" (esse botão deverá ser aplicado caso eu queira que o proprio CRM ofereça sugestões, as sugestões deverão aparecer em caixas de texto editáveis logo a baixo) e o botão de "Enviar" para enviar o texto/imagem/documentos/pdf caso eu insira manualmente minha ideia. A IA deverá estar integrada com o CRM. Ao clicar em enviar, o CRM deverá sugerir de no mínimo 1 e máximo 3 opções de tema, com um botão de confirmar. Após a confirmação, o CRM deverá oferecer de 2 a 4 opções de título, com um botão uma ou uma(s) caixa(s) de texto retangular, mais cumprida do que alta, editável, Com o título "Tema Selecionado" e um botão de confirmar. Para sugestão do tema deverá ser utilizado técnicas de busca, com tendencias, temas relevantes, mais visualizados ou mais relevantes, mais engajados, mais buscados e com resultados para o nicho que me proponho atuar (objetivo final de venda de produto como afiliado). Sempre que que for sugerido alguma coisa pela IA, pelo CRM, ou pelo sistema, deverá haver ao menos, uma justificativa e as fontes utilizadas.
+
 2. Definição dos Produtos
 Ao clicar em "confirmar", na seleção do tema, o CRM já deverá procurar por produtos relacionados ao tema escolhido. Deverá ter uma caixa de texto, editável, pré-preenchida com o nome do produto, marca e modelo. Dividir por Produto 1, Produto 2 e assim por diante. Deverá ter uma opção de para acrescentar um produto manualmente, com uma caixa lista para escolha da numeração do produto, ex: caixa de seleção "Produto 3", abaixo uma caixa de texto para escrever manualmente o nome do produto, marca e modelo.
 Abaixo de tudo um botão de "Confirmar Produtos".
